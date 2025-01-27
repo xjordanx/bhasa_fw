@@ -1,0 +1,1 @@
+project -fileorder "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/bhasa_zero/bhasa_zero.vhd" 

@@ -1,0 +1,103 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "10:28:59    25-Jan-2025",
+	"Working Directory" : "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1",
+	"Install" : "C:/ECAD/lscc/diamond/3.14/synpbase"
+},
+"hdl_info_gen" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "10:25:27",
+   "Runtime" : "00s",
+   "Executable Run Time" : "00s",
+   "hdl_info_gen" : {
+      "executable" : "bin64/c_vhdl.exe",
+      "Run Directory" : "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1",
+      "Run State" : "Complete",
+      "Return Code" : "0",
+      "Has Errors" : "no",
+      "Run Start Time" : "10:25:27",
+      "Run Time" : "00s",
+      "Exe Run Time" : "00s",
+      "Memory Usage" : "-",
+      "Up-to-date (run skipped)" : "no"
+   }
+},
+"impl1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "10:25:27",
+   "Runtime" : "03m:32s",
+   "Executable Run Time" : "03m:30s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "10:25:27",
+      "Runtime" : "03m:32s",
+      "Executable Run Time" : "03m:30s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:25:27",
+         "Runtime" : "01m:44s",
+         "Executable Run Time" : "01m:43s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "10:25:27",
+            "Runtime" : "01m:33s",
+            "Executable Run Time" : "01m:32s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:25:27",
+               "Run Time" : "01m:30s",
+               "Exe Run Time" : "01m:29s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:26:57",
+               "Run Time" : "03s",
+               "Exe Run Time" : "03s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:27:00",
+            "Run Time" : "11s",
+            "Exe Run Time" : "11s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:27:12",
+         "Runtime" : "01m:47s",
+         "Executable Run Time" : "01m:47s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:27:12",
+            "Run Time" : "01m:47s",
+            "Exe Run Time" : "01m:47s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

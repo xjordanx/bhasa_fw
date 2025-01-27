@@ -1,0 +1,39 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.bhasa_zero|-mpparams|C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\impl1\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\impl1\\synwork\\bhasa_zero_impl1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-work_is_curlib|0|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\bin64\\c_vhdl.exe":1727134361
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\location.map":1727134414
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\std.vhd":1727134414
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1727134414
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\std1164.vhd":1727134414
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\numeric.vhd":1727134414
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\umr_capim.vhd":1727134414
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\arith.vhd":1727134411
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\unsigned.vhd":1727134414
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\hyperents.vhd":1727134414
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\bhasa_zero.vhd":1737829455
+0 "C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work bhasa_zero bhasa_zero 0
+module work bhasa_zero 0
+
+# Unbound Instances to File Association
+inst work bhasa_zero uart0 0
+inst work bhasa_zero sysmem0 0
+inst work bhasa_zero gpio0 0
+inst work bhasa_zero cpu0 0
+inst work bhasa_zero apb0 0
+inst work bhasa_zero ahbl2apb0 0
+inst work bhasa_zero ahbl0 0
+
+#identified top module
+top_module bhasa_zero
+
+
+# Configuration files used

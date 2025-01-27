@@ -1,0 +1,485 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(muldi3.o)
+                              ./src/bsp/driver/riscv_mc/timer.o (__mulsi3)
+c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(div.o)
+                              ./src/bsp/driver/uart/uart.o (__udivsi3)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_printf.c.o)
+                              ./src/bsp/driver/riscv_mc/interrupt.o (printf)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_puts.c.o)
+                              ./src/main.o (puts)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+                              (__i_vfprintf)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+                              (__i_vfscanf)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(memset.S.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o) (memset)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strchr.c.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o) (strchr)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strnlen.c.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o) (strnlen)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o) (fgetc)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o) (fputc)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o) (ungetc)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fgetc.c.o) (__atomic_exchange_ungetc)
+c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_ungetc.c.o) (__atomic_compare_exchange_ungetc)
+c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(save-restore.o)
+                              c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o) (__riscv_save_12)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/uart/uart.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/uart/uart.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/uart/uart.o
+ .text.uart_getc
+                0x0000000000000000       0x3a ./src/bsp/driver/uart/uart.o
+ .text.uart_config
+                0x0000000000000000       0x8a ./src/bsp/driver/uart/uart.o
+ .text.uart_set_rate
+                0x0000000000000000       0x38 ./src/bsp/driver/uart/uart.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/cache.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/cache.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/cache.o
+ .text.cache_flush_ins
+                0x0000000000000000        0x6 ./src/bsp/driver/riscv_mc/cache.o
+ .text.cache_invalidate
+                0x0000000000000000        0x2 ./src/bsp/driver/riscv_mc/cache.o
+ .text.cache_invalidate_all
+                0x0000000000000000        0x2 ./src/bsp/driver/riscv_mc/cache.o
+ .comment       0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/cache.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/crt0.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/crt0.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/exit.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/exit.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/exit.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/interrupt.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/interrupt.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/interrupt.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/iob.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/iob.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/iob.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/pic.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/pic.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_init
+                0x0000000000000000       0x42 ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_enable
+                0x0000000000000000       0x18 ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_disable
+                0x0000000000000000       0x1c ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_polarity_set
+                0x0000000000000000       0x1c ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_polarity_get
+                0x0000000000000000       0x18 ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_status_get
+                0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_isr_register
+                0x0000000000000000       0x38 ./src/bsp/driver/riscv_mc/pic.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/reg_access.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/reg_access.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_32b_write
+                0x0000000000000000        0x6 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_32b_read
+                0x0000000000000000        0x8 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_16b_write
+                0x0000000000000000        0x8 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_16b_read
+                0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_8b_write
+                0x0000000000000000        0x8 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_8b_modify
+                0x0000000000000000       0x1a ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_8b_read
+                0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/reg_access.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/timer.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/timer.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_stop
+                0x0000000000000000       0x24 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_get_mtime
+                0x0000000000000000       0x46 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_set_mtime
+                0x0000000000000000       0x3c ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_init
+                0x0000000000000000       0x22 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_get_mtimecmp
+                0x0000000000000000       0x46 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_set_mtimecmp
+                0x0000000000000000       0x3c ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_reload
+                0x0000000000000000       0x5a ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_start
+                0x0000000000000000       0x4a ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_isr
+                0x0000000000000000       0x30 ./src/bsp/driver/riscv_mc/timer.o
+ .comment       0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/timer.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/util.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/util.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/util.o
+ .text.big_little_convert
+                0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/util.o
+ .comment       0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/util.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/gpio/gpio.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/gpio/gpio.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/gpio/gpio.o
+ .text.gpio_set_direction
+                0x0000000000000000       0x26 ./src/bsp/driver/gpio/gpio.o
+ .text.gpio_input_get
+                0x0000000000000000       0x1e ./src/bsp/driver/gpio/gpio.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .text          0x0000000000000000        0x0 ./src/utils.o
+ .data          0x0000000000000000        0x0 ./src/utils.o
+ .bss           0x0000000000000000        0x0 ./src/utils.o
+ .data          0x0000000000000000        0x0 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(muldi3.o)
+ .bss           0x0000000000000000        0x0 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(muldi3.o)
+ .data          0x0000000000000000        0x0 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(div.o)
+ .bss           0x0000000000000000        0x0 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(div.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.scanf_getc
+                0x0000000000000000       0x24 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.scanf_ungetc
+                0x0000000000000000       0x24 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.skip_spaces
+                0x0000000000000000       0x4c c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.putval   0x0000000000000000       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .rodata.str1.4
+                0x0000000000000000        0xc c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.vfscanf  0x0000000000000000      0x4f4 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .comment       0x0000000000000000       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(memset.S.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(memset.S.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(memset.S.o)
+ .text.memset   0x0000000000000000       0xa8 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(memset.S.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strchr.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strchr.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strchr.c.o)
+ .text.strchr   0x0000000000000000       0x1a c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strchr.c.o)
+ .comment       0x0000000000000000       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strchr.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strnlen.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strnlen.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strnlen.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .text.fgetc    0x0000000000000000       0x58 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .comment       0x0000000000000000       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .text.ungetc   0x0000000000000000       0x3e c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .comment       0x0000000000000000       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .text.__picolibc_non_atomic_exchange_ungetc
+                0x0000000000000000        0xc c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .comment       0x0000000000000000       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .text          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .data          0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .bss           0x0000000000000000        0x0 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .text.__picolibc_non_atomic_compare_exchange_ungetc
+                0x0000000000000000       0x10 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .comment       0x0000000000000000       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .data          0x0000000000000000        0x0 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(save-restore.o)
+ .bss           0x0000000000000000        0x0 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(save-restore.o)
+ .eh_frame      0x0000000000000000       0xf8 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(save-restore.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sysmem0_inst     0x0000000000000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x00000000000004d0                vfprintf = __i_vfprintf
+                0x0000000000000000                vfscanf = __i_vfscanf
+LOAD ./src/bsp/driver/uart/uart.o
+LOAD ./src/bsp/driver/riscv_mc/cache.o
+LOAD ./src/bsp/driver/riscv_mc/crt0.o
+LOAD ./src/bsp/driver/riscv_mc/exit.o
+LOAD ./src/bsp/driver/riscv_mc/interrupt.o
+LOAD ./src/bsp/driver/riscv_mc/iob.o
+LOAD ./src/bsp/driver/riscv_mc/pic.o
+LOAD ./src/bsp/driver/riscv_mc/reg_access.o
+LOAD ./src/bsp/driver/riscv_mc/timer.o
+LOAD ./src/bsp/driver/riscv_mc/util.o
+LOAD ./src/bsp/driver/gpio/gpio.o
+LOAD ./src/main.o
+LOAD ./src/utils.o
+LOAD c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a
+START GROUP
+LOAD c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a
+LOAD c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a
+END GROUP
+LOAD c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a
+                0x0000000000000000                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x0
+                0x0000000000000a00                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0xa00
+
+.text           0x0000000000000000      0x9f4
+                0x0000000000000000                _ftext = .
+                [!provide]                        PROVIDE (_sprof = .)
+ *(SORT_BY_NAME(.crt*))
+ .crt0          0x0000000000000000       0x90 ./src/bsp/driver/riscv_mc/crt0.o
+                0x0000000000000000                _start
+                0x0000000000000010                trap_entry
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.uart_init
+                0x0000000000000090       0x1a ./src/bsp/driver/uart/uart.o
+                0x0000000000000090                uart_init
+ .text.uart_putc
+                0x00000000000000aa       0x30 ./src/bsp/driver/uart/uart.o
+                0x00000000000000aa                uart_putc
+ .text          0x00000000000000da       0x40 ./src/bsp/driver/riscv_mc/crt0.o
+ .text._exit    0x000000000000011a        0x2 ./src/bsp/driver/riscv_mc/exit.o
+                0x000000000000011a                _exit
+ .text.irq_callback
+                0x000000000000011c       0x60 ./src/bsp/driver/riscv_mc/interrupt.o
+                0x000000000000011c                irq_callback
+ .text.esr_callback
+                0x000000000000017c       0x2c ./src/bsp/driver/riscv_mc/interrupt.o
+                0x000000000000017c                esr_callback
+ .text.iob_putc
+                0x00000000000001a8        0xe ./src/bsp/driver/riscv_mc/iob.o
+ .text.iob_getc
+                0x00000000000001b6        0xe ./src/bsp/driver/riscv_mc/iob.o
+ .text.iob_flush
+                0x00000000000001c4        0xe ./src/bsp/driver/riscv_mc/iob.o
+ .text.iob_init
+                0x00000000000001d2       0x14 ./src/bsp/driver/riscv_mc/iob.o
+                0x00000000000001d2                iob_init
+ .text.pic_int_clear
+                0x00000000000001e6       0x10 ./src/bsp/driver/riscv_mc/pic.o
+                0x00000000000001e6                pic_int_clear
+ .text.pic_int_pending
+                0x00000000000001f6       0x14 ./src/bsp/driver/riscv_mc/pic.o
+                0x00000000000001f6                pic_int_pending
+ .text.reg_32b_modify
+                0x000000000000020a        0xe ./src/bsp/driver/riscv_mc/reg_access.o
+                0x000000000000020a                reg_32b_modify
+ .text.gpio_init
+                0x0000000000000218       0x2a ./src/bsp/driver/gpio/gpio.o
+                0x0000000000000218                gpio_init
+ .text.gpio_output_write
+                0x0000000000000242       0x2c ./src/bsp/driver/gpio/gpio.o
+                0x0000000000000242                gpio_output_write
+ .text.lscc_uart_getc
+                0x000000000000026e        0x4 ./src/main.o
+ .text.lscc_uart_flush
+                0x0000000000000272        0x4 ./src/main.o
+ .text.lscc_uart_putc
+                0x0000000000000276       0x2e ./src/main.o
+ .text.startup.main
+                0x00000000000002a4       0xc0 ./src/main.o
+                0x00000000000002a4                main
+ .text.trap_init
+                0x0000000000000364        0x2 ./src/utils.o
+                0x0000000000000364                trap_init
+ .text.delayCycle
+                0x0000000000000366       0x22 ./src/utils.o
+                0x0000000000000366                delayCycle
+ .text.delay    0x0000000000000388        0x2 ./src/utils.o
+                0x0000000000000388                delay
+ *fill*         0x000000000000038a        0x2 
+ .text          0x000000000000038c       0x16 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(muldi3.o)
+                0x000000000000038c                __mulsi3
+ *fill*         0x00000000000003a2        0x2 
+ .text          0x00000000000003a4       0x7e c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(div.o)
+                0x00000000000003a4                __divsi3
+                0x00000000000003ac                __udivsi3
+                0x00000000000003d8                __umodsi3
+                0x00000000000003fc                __modsi3
+ .text.printf   0x0000000000000422       0x26 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_printf.c.o)
+                0x0000000000000422                printf
+ .text.puts     0x0000000000000448       0x3c c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_puts.c.o)
+                0x0000000000000448                puts
+ .text.__ultoa_invert
+                0x0000000000000484       0x4c c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .text.vfprintf
+                0x00000000000004d0      0x48a c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+                0x00000000000004d0                __i_vfprintf
+ .text.strnlen  0x000000000000095a       0x18 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strnlen.c.o)
+                0x000000000000095a                strnlen
+ .text.fputc    0x0000000000000972       0x20 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+                0x0000000000000972                fputc
+                0x0000000000000972                putc
+ .text          0x0000000000000992       0x60 c:/ecad/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32ic/ilp32\libgcc.a(save-restore.o)
+                0x0000000000000992                __riscv_save_12
+                0x000000000000099a                __riscv_save_9
+                0x000000000000099a                __riscv_save_11
+                0x000000000000099a                __riscv_save_10
+                0x000000000000099a                __riscv_save_8
+                0x00000000000009a8                __riscv_save_4
+                0x00000000000009a8                __riscv_save_6
+                0x00000000000009a8                __riscv_save_5
+                0x00000000000009a8                __riscv_save_7
+                0x00000000000009c2                __riscv_save_3
+                0x00000000000009c2                __riscv_save_2
+                0x00000000000009c2                __riscv_save_1
+                0x00000000000009c2                __riscv_save_0
+                0x00000000000009ce                __riscv_restore_12
+                0x00000000000009d2                __riscv_restore_11
+                0x00000000000009d2                __riscv_restore_9
+                0x00000000000009d2                __riscv_restore_10
+                0x00000000000009d2                __riscv_restore_8
+                0x00000000000009dc                __riscv_restore_5
+                0x00000000000009dc                __riscv_restore_7
+                0x00000000000009dc                __riscv_restore_6
+                0x00000000000009dc                __riscv_restore_4
+                0x00000000000009e6                __riscv_restore_3
+                0x00000000000009e6                __riscv_restore_0
+                0x00000000000009e6                __riscv_restore_2
+                0x00000000000009e6                __riscv_restore_1
+ *(.init)
+ *(.fini)
+                0x00000000000009f4                . = ALIGN (0x4)
+ *fill*         0x00000000000009f2        0x2 
+                0x00000000000009f4                _etext = .
+
+.gprof          0x00000000000009f4        0x0
+                [!provide]                        PROVIDE (_s_part_prof = .)
+ *(.gprof)
+                0x00000000000009f4                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_eprof = .)
+
+.ctors          0x00000000000009f4        0x0
+                0x00000000000009f4                _ctors_start = .
+ *(.init_array*)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x00000000000009f4                . = ALIGN (0x4)
+                0x00000000000009f4                _ctors_end = .
+
+.dtors          0x00000000000009f4        0x0
+                0x00000000000009f4                _dtors_start = .
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x00000000000009f4                . = ALIGN (0x4)
+
+.rodata         0x00000000000009f4       0x84
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata.esr_callback.str1.4
+                0x00000000000009f4       0x32 ./src/bsp/driver/riscv_mc/interrupt.o
+ *fill*         0x0000000000000a26        0x2 
+ .rodata.__iob  0x0000000000000a28        0xc ./src/bsp/driver/riscv_mc/iob.o
+                0x0000000000000a28                __iob
+ .rodata.main.str1.4
+                0x0000000000000a34       0x34 ./src/main.o
+ .rodata.str1.4
+                0x0000000000000a68       0x10 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ *(.gnu.linkonce.r.*)
+                0x0000000000000a78                . = ALIGN (0x4)
+
+.rela.dyn       0x0000000000000a78        0x0
+ .rela.text     0x0000000000000a78        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.startup.main
+                0x0000000000000a78        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.printf
+                0x0000000000000a78        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.puts
+                0x0000000000000a78        0x0 ./src/bsp/driver/uart/uart.o
+
+.data           0x0000000000000a78       0x18
+ *(.data .data.*)
+ .data.__stdio  0x0000000000000a78       0x14 ./src/bsp/driver/riscv_mc/iob.o
+ *(.gnu.linkonce.d.*)
+                0x0000000000000a8c                . = ALIGN (0x4)
+                0x000000000000128c                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata.pin_state.0
+                0x0000000000000a8c        0x1 ./src/main.o
+ *(.gnu.linkonce.s.*)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x0000000000000a90                . = ALIGN (0x4)
+ *fill*         0x0000000000000a8d        0x3 
+
+.bss            0x0000000000000a90      0x1bc
+                0x0000000000000a90                _bss_start = .
+ *(.sbss*)
+ .sbss.s_flush_func
+                0x0000000000000a90        0x4 ./src/bsp/driver/riscv_mc/iob.o
+ .sbss.s_getc_func
+                0x0000000000000a94        0x4 ./src/bsp/driver/riscv_mc/iob.o
+ .sbss.s_putc_func
+                0x0000000000000a98        0x4 ./src/bsp/driver/riscv_mc/iob.o
+ .sbss.pic_dev  0x0000000000000a9c        0x4 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000a9c                pic_dev
+ .sbss.idx.1    0x0000000000000aa0        0x1 ./src/main.o
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ *fill*         0x0000000000000aa1        0x3 
+ .bss.int_table
+                0x0000000000000aa4       0x48 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000aa4                int_table
+ .bss.gpio_inst
+                0x0000000000000aec      0x108 ./src/main.o
+                0x0000000000000aec                gpio_inst
+ .bss.uart_core_uart
+                0x0000000000000bf4       0x58 ./src/main.o
+                0x0000000000000bf4                uart_core_uart
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x0000000000000c4c                . = ALIGN (0x4)
+                0x0000000000000c4c                _bss_end = .
+
+.heap           0x0000000000000c50        0x0
+                [!provide]                        PROVIDE (_heap_start = .)
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x0000000000000c50                . = (. + _HEAP_SIZE)
+                0x0000000000000c50                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_heap_end = .)
+                [!provide]                        PROVIDE (__heap_end = .)
+
+.stack          0x0000000000000c50      0xa00
+                [!provide]                        PROVIDE (_stack_end = .)
+                0x0000000000001650                . = (. + _STACK_SIZE)
+ *fill*         0x0000000000000c50      0xa00 
+                0x0000000000001650                . = ALIGN (0x10)
+                0x0000000000001650                PROVIDE (_stack_start = .)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+OUTPUT(riscv_mc_helloworld.elf elf32-littleriscv)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./src/bsp/driver/uart/uart.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/exit.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/interrupt.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/iob.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/pic.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/reg_access.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/gpio/gpio.o
+ .comment       0x0000000000000033       0x34 ./src/main.o
+ .comment       0x0000000000000033       0x34 ./src/utils.o
+ .comment       0x0000000000000033       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .comment       0x0000000000000033       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .comment       0x0000000000000033       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .comment       0x0000000000000033       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_string_strnlen.c.o)
+ .comment       0x0000000000000033       0x34 c:\ecad\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32ic/ilp32\libc.a(libc_tinystdio_fputc.c.o)

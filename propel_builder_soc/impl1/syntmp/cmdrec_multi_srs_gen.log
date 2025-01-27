@@ -1,0 +1,7 @@
+C:\ECAD\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe  -link  -top  HelloWorld_Top  -multisrs  C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\impl1\synwork\bhasa_zero_impl1_comp.srs  -osyn  C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\impl1\synwork\bhasa_zero_impl1_mult.srs  -log  C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\impl1\synlog\bhasa_zero_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe -link -top HelloWorld_Top -multisrs ..\synwork\bhasa_zero_impl1_comp.srs -osyn ..\synwork\bhasa_zero_impl1_mult.srs -log ..\synlog\bhasa_zero_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:2
+file:..\synwork\bhasa_zero_impl1_comp.srs|io:i|time:1737837934|size:496354|exec:0|csum:64192F9B0C0628061EDB566EC997F2C1
+file:..\synwork\bhasa_zero_impl1_mult.srs|io:o|time:1737837938|size:4385|exec:0|csum:
+file:..\synlog\bhasa_zero_impl1_multi_srs_gen.srr|io:o|time:1737837938|size:1179|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe|io:i|time:1727134362|size:10549248|exec:1|csum:D91EA53737F6BC51A484A15DD0EB29F5

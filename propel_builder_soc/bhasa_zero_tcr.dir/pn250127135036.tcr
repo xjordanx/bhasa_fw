@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/27/2025 11:14:32
+#Project Location: C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero; Project name: bhasa_zero
+source "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/diamond_setup_template.tcl"
+prj_src add "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/efb.ipx"
+#Stop recording: 1/27/2025 13:50:36

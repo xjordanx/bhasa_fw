@@ -1,0 +1,31 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 92 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1763 clock pin(s) of sequential element(s)
+0 instances converted, 1763 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_3       ENCRYPTED           DCCA                   83         ENCRYPTED      
+@KP:ckid0_4       ENCRYPTED           jtagconn16             9          ENCRYPTED      
+=======================================================================================
+================================================================================ Gated/Generated Clocks =================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance                                                       Explanation                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       OSCJ.OSC            OSCH                   1763                   HelloWorld_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.buff_valid_r[1]     Clock source is invalid for GCC
+=========================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+

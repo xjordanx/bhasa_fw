@@ -1,0 +1,29 @@
+PAR: Place And Route Diamond (64-bit) 3.14.0.75.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+Sat Jan 25 12:47:45 2025
+
+C:/ECAD/lscc/diamond/3.14/ispfpga\bin\nt64\par -f bhasa_zero_impl1.p2t
+bhasa_zero_impl1_map.ncd bhasa_zero_impl1.dir bhasa_zero_impl1.prf -gui -msgset
+C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/promote.xml
+
+
+Preference file: bhasa_zero_impl1.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_3   *      0            0.427        0            0.144        0            01:11        Completed
+5_2          0            -1.042       18525        0.143        0            01:18        Completed
+5_1          0            -1.049       136565       0.143        0            02:25        Completed
+
+* : Design saved.
+
+Total (real) run time for 3-seed: 4 mins 55 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.

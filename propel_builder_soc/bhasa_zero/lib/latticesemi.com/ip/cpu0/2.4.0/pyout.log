@@ -1,0 +1,71 @@
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\rtl\cpu0_bb.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\cpu0.cfg 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\misc\cpu0_tmpl.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\misc\cpu0_tmpl.vhd 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\rtl\cpu0.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023_0509.1/builder/rtf/ip/nx/latticesemi.com_riscv_mc_2.4.0)
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\testbench\dut_params.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\testbench\dut_inst.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\design.xml 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\component.xml 
+"C:/lscc/propel/2023_0509.1/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\testbench/cache_update.py"
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\cpu0\2.4.0\cpu0.ipx 
+WARNING: missing driver HDL files.
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0_bb.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\ahbl0.cfg 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\misc\ahbl0_tmpl.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\misc\ahbl0_tmpl.vhd 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023_0509.1/builder/rtf/ip/common/ahb_lite_interconnect)
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\testbench\dut_params.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\testbench\dut_inst.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\design.xml 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\component.xml 
+"C:/lscc/propel/2023_0509.1/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\testbench/create_ahbl_interconnect_top.py"
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl0\1.3.0\ahbl0.ipx 
+WARNING: missing driver HDL files.
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0_bb.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\ahbl2apb0.cfg 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\misc\ahbl2apb0_tmpl.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\misc\ahbl2apb0_tmpl.vhd 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023_0509.1/builder/rtf/ip/common/ahb_lite_to_apb_bridge)
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\testbench\dut_params.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\testbench\dut_inst.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\design.xml 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\component.xml 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\ahbl2apb0\1.1.0\ahbl2apb0.ipx 
+path:  none lib_dir:  C:/lscc/propel/2023_0509.1/templates/MachXO2_Template01/.lib
+path:  none lib_dir:  C:/lscc/propel/2023_0509.1/templates/MachXO2_Template01/.lib
+WARNING: missing driver HDL files.
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\rtl\sysmem0_bb.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\sysmem0.cfg 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\misc\sysmem0_tmpl.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\misc\sysmem0_tmpl.vhd 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\rtl\sysmem0.v 
+path:  none lib_dir:  C:/lscc/propel/2023_0509.1/templates/MachXO2_Template01/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023_0509.1/builder/rtf/ip/common/system_memory)
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\testbench\dut_params.v 
+path:  none lib_dir:  C:/lscc/propel/2023_0509.1/templates/MachXO2_Template01/.lib
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\testbench\dut_inst.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\design.xml 
+path:  none lib_dir:  C:/lscc/propel/2023_0509.1/templates/MachXO2_Template01/.lib
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\component.xml 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\sysmem0\2.0.0\sysmem0.ipx 
+WARNING: missing driver HDL files.
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0_bb.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\apb0.cfg 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\misc\apb0_tmpl.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\misc\apb0_tmpl.vhd 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023_0509.1/builder/rtf/ip/common/apb_interconnect)
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\testbench\dut_params.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\testbench\dut_inst.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\design.xml 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\component.xml 
+"C:/lscc/propel/2023_0509.1/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\testbench/create_apb_interconnect_top.py"
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\module\apb0\1.2.0\apb0.ipx 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0_bb.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\gpio0\1.6.1\gpio0.cfg 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\gpio0\1.6.1\misc\gpio0_tmpl.v 
+Writing C:\lscc\propel\2023_0509.1\templates\MachXO2_Template01\.lib\latticesemi.com\ip\gpio0\1.6.1\misc\gpio0_tmpl.vhd 

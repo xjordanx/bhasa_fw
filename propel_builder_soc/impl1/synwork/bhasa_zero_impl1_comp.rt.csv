@@ -1,0 +1,10 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work , Entity: bhasa_zero Architecture: bhasa_zero,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,    96 MB,     4 MB,     4 MB,     0 MB,     0 MB
+work, ahbl0_ipgen_lscc_ahbl_decoder_Z16_layer2,0h:00m:02s,0h:00m:02s,0h:00m:00s,0h:00m:00s,   166 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, ahbl0_ipgen_lscc_ahbl_interconnect_Z15_layer2,0h:00m:05s,0h:00m:05s,-,0h:00m:00s,   166 MB,     1 MB,     1 MB,     0 MB,     0 MB
+work, apb0_ipgen_lscc_apb_decoder_Z12_layer2,0h:00m:02s,0h:00m:02s,0h:00m:00s,0h:00m:00s,   166 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, apb0_ipgen_lscc_apb_interconnect_Z11_layer2,0h:00m:04s,0h:00m:04s,-,0h:00m:00s,   166 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, cpu0_ipgen_Riscv_Dbg_IC,0h:00m:04s,0h:00m:00s,0h:00m:00s,0h:00m:04s,   236 MB,    50 MB,     3 MB,    19 MB,    29 MB
+work, cpu0_ipgen_riscvsmall_Z9_layer2,0h:00m:10s,0h:00m:10s,-,0h:00m:00s,   236 MB,    23 MB,    23 MB,     0 MB,     0 MB
+work, gpio0_ipgen_lscc_gpio_Z7_layer2,0h:00m:02s,0h:00m:01s,-,0h:00m:00s,   236 MB,     1 MB,     1 MB,     0 MB,     0 MB
+work, sysmem0_ipgen_lscc_sys_mem_Z3_layer2,0h:00m:02s,0h:00m:02s,-,0h:00m:00s,   236 MB,     1 MB,     1 MB,     0 MB,     0 MB

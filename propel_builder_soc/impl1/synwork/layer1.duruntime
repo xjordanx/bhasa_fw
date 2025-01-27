@@ -1,0 +1,24 @@
+Runtime Summary:
+================
+
+	*Library: work, Entity: bhasa_zero, Architecture: bhasa_zero
+		Hardware Generation Phase   : 0h:00m:01s
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: ahbl2apb0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: gpio0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: uart0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: sysmem0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: cpu0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: apb0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ahbl0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: bhasa_zero, Architecture: bhasa_zero
+			Optimization Phase: Negligible CPU time

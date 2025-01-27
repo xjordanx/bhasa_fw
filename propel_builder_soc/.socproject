@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<propelProject>
+    <builder-resource>
+        <socProject sbxfile="./bhasa_zero/bhasa_zero.sbx" />
+        <verifyProject sbxfile="./verification/bhasa_zero_v.sbx" />
+        <ConstraintFile>./bhasa_zero.lpf</ConstraintFile>
+    </builder-resource>
+    <builderInfo version="2024.1.2406150513_p" />
+</propelProject>

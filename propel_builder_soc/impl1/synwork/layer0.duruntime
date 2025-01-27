@@ -1,0 +1,11 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		* Library: work, DesignUnit: HelloWorld_Top
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: OSCH
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: GSR
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

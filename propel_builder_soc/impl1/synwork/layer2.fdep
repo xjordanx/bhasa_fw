@@ -1,0 +1,190 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\impl1\\synwork\\_verilog_hintfile|-top|work.uart0|-top|work.sysmem0|-top|work.gpio0|-top|work.cpu0|-top|work.apb0|-top|work.ahbl2apb0|-top|work.ahbl0|-mpparams|C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\impl1\\synwork\\_mh_params|-layerid|2|-orig_srs|C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\impl1\\synwork\\bhasa_zero_impl1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero|-I|C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\impl1\\|-I|C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib|-v2001|-devicelib|C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\bin64\\c_ver.exe":1727134360
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\impl1\\synwork\\_verilog_hintfile":1737829528
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\machxo2.v":1726552933
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\pmi_def.v":1727134390
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vlog\\hypermods.v":1727134415
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vlog\\scemi_objects.v":1727134415
+#CUR:"C:\\ECAD\\lscc\\diamond\\3.14\\synpbase\\lib\\vlog\\scemi_pipes.svh":1727134415
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\lib\\latticesemi.com\\module\\ahbl0\\1.3.0\\rtl\\ahbl0.v":1684303397
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\lib\\latticesemi.com\\module\\apb0\\1.2.0\\rtl\\apb0.v":1684303440
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\bhasa_zero_Top.v":1736963318
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\lib\\latticesemi.com\\ip\\uart0\\1.3.0\\rtl\\uart0.v":1684303462
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\lib\\latticesemi.com\\ip\\cpu0\\2.4.0\\rtl\\cpu0.v":1684303467
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\lib\\latticesemi.com\\ip\\gpio0\\1.6.1\\rtl\\gpio0.v":1684303456
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\lib\\latticesemi.com\\module\\ahbl2apb0\\1.1.0\\rtl\\ahbl2apb0.v":1684303411
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\bhasa_zero\\lib\\latticesemi.com\\ip\\sysmem0\\2.2.0\\rtl\\sysmem0.v":1737837803
+#CUR:"C:\\ECAD\\FPGA_Designs\\lattice_propel_workspace\\bhasa_fw\\bhasa_zero\\reginit.bin":1737829459
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v" verilog
+1			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v" verilog
+2			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero_Top.v" verilog
+3			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v" verilog
+4			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\cpu0\2.4.0\rtl\cpu0.v" verilog
+5			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v" verilog
+6			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v" verilog
+7			"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+#Design Unit to File Association
+module work ahbl0 0
+module work ahbl0_ipgen_lscc_ahbl_interconnect 0
+module work ahbl0_ipgen_lscc_ahbl_arbiter 0
+module work ahbl0_ipgen_lscc_ahbl_fair_arb 0
+module work ahbl0_ipgen_lscc_ahbl_prio_arb 0
+module work ahbl0_ipgen_lscc_ahbl_arbmux 0
+module work ahbl0_ipgen_lscc_ahbl_bus 0
+module work ahbl0_ipgen_lscc_ahbl_decoder 0
+module work ahbl0_ipgen_lscc_ahbl_multiplexor 0
+module work ahbl0_ipgen_lscc_ahbl_default_slv 0
+module work ahbl0_ipgen_lscc_ahbl_crossbar 0
+module work ahbl0_ipgen_lscc_ahbl_input_stage 0
+module work ahbl0_ipgen_lscc_ahbl_decoder_prim 0
+module work ahbl0_ipgen_lscc_ahbl_decoder_comp 0
+module work apb0 1
+module work apb0_ipgen_lscc_apb_interconnect 1
+module work apb0_ipgen_lscc_apb_arbiter 1
+module work apb0_ipgen_lscc_apb_prio_arb 1
+module work apb0_ipgen_lscc_apb_thermo_mask 1
+module work apb0_ipgen_lscc_apb_arbmux 1
+module work apb0_ipgen_lscc_apb_bus 1
+module work apb0_ipgen_lscc_apb_decoder 1
+module work apb0_ipgen_lscc_apb_multiplexor 1
+module work apb0_ipgen_lscc_apb_crossbar 1
+module work apb0_ipgen_lscc_apb_decoder_prim 1
+module work apb0_ipgen_lscc_apb_decoder_comp 1
+module work HelloWorld_Top 2
+module work uart0 3
+module work uart0_ipgen_lscc_uart 3
+module work uart0_ipgen_lscc_uart_txcver_fifo 3
+module work uart0_ipgen_lscc_uart_intface 3
+module work uart0_ipgen_lscc_uart_rxcver_fifo 3
+module work uart0_ipgen_lscc_uart_rxcver 3
+module work uart0_ipgen_lscc_uart_txmitt 3
+module work cpu0 4
+module work cpu0_ipgen_riscvsmall 4
+module work cpu0_ipgen_lscc_cpu_ahbl_mux 4
+module work cpu0_ipgen_pic 4
+module work cpu0_ipgen_timer_32 4
+module work cpu0_ipgen_vex_debug 4
+module work cpu0_ipgen_Riscv_Cache_Dbg_IMAC 4
+module work cpu0_ipgen_Riscv_Cache_NoDbg_IMAC 4
+module work cpu0_ipgen_Riscv_Dbg_IMAC 4
+module work cpu0_ipgen_Riscv_NoDbg_IMAC 4
+module work cpu0_ipgen_Riscv_Cache_Dbg_I 4
+module work cpu0_ipgen_Riscv_Cache_NoDbg_I 4
+module work cpu0_ipgen_Riscv_Cache_Dbg_IC 4
+module work cpu0_ipgen_Riscv_Cache_NoDbg_IC 4
+module work cpu0_ipgen_Riscv_Dbg_I 4
+module work cpu0_ipgen_Riscv_NoDbg_I 4
+module work cpu0_ipgen_Riscv_Dbg_IC 4
+module work cpu0_ipgen_Riscv_NoDbg_IC 4
+module work cpu0_ipgen_d_ff_plain_rst_t 4
+module work cpu0_ipgen_d_ff_plain_rst_we_t 4
+module work cpu0_ipgen_JtagBridge 4
+module work cpu0_ipgen_FlowCCByToggle 4
+module work cpu0_ipgen_SystemDebugger 4
+module work cpu0_ipgen_BufferCC_1_ 4
+module work cpu0_ipgen_InstructionCache_Cache_Dbg_I 4
+module work cpu0_ipgen_DataCache_Cache_Dbg_I 4
+module work cpu0_ipgen_InstructionCache_Cache_Dbg_IC 4
+module work cpu0_ipgen_DataCache_Cache_Dbg_IC 4
+module work cpu0_ipgen_InstructionCache_Cache_Dbg_IMAC 4
+module work cpu0_ipgen_DataCache_Cache_Dbg_IMAC 4
+module work cpu0_ipgen_InstructionCache_Cache_NoDbg_I 4
+module work cpu0_ipgen_DataCache_Cache_NoDbg_I 4
+module work cpu0_ipgen_InstructionCache_Cache_NoDbg_IC 4
+module work cpu0_ipgen_DataCache_Cache_NoDbg_IC 4
+module work cpu0_ipgen_InstructionCache_Cache_NoDbg_IMAC 4
+module work cpu0_ipgen_DataCache_Cache_NoDbg_IMAC 4
+module work cpu0_ipgen_StreamFifoLowLatency_Dbg_I 4
+module work cpu0_ipgen_StreamFifoLowLatency_Dbg_IC 4
+module work cpu0_ipgen_StreamFifoLowLatency_Dbg_IMAC 4
+module work cpu0_ipgen_StreamFifoLowLatency_NoDbg_I 4
+module work cpu0_ipgen_StreamFifoLowLatency_NoDbg_IC 4
+module work cpu0_ipgen_StreamFifoLowLatency_NoDbg_IMAC 4
+module work cpu0_ipgen_vex_jtag_bridge 4
+module work gpio0 5
+module work gpio0_ipgen_lscc_gpio 5
+module work gpio0_ipgen_lscc_apb2lmmi 5
+module work gpio0_ipgen_lscc_gpio_lmmi 5
+module work ahbl2apb0 6
+module work ahbl2apb0_ipgen_lscc_ahbl2apb 6
+module work sysmem0 7
+module work sysmem0_ipgen_lscc_sys_mem 7
+module work sysmem0_ipgen_lscc_ahblmem_arbiter 7
+module work sysmem0_ipgen_lscc_ahblmem_subordinate 7
+module work sysmem0_ipgen_lscc_axi4mem_arbiter 7
+module work sysmem0_ipgen_lscc_axi4mem_subordinate 7
+module work sysmem0_ipgen_lscc_axi4stream_rx 7
+module work sysmem0_ipgen_lscc_fifo_streamer 7
+module work sysmem0_ipgen_lscc_mem 7
+module work sysmem0_ipgen_lscc_smem_lram 7
+module work sysmem0_ipgen_lscc_lram_core 7
+#Unbound instances to file Association.
+inst work DCS DCS 7
+inst work DCSA DCSA 7
+inst work DCS DCS 7
+inst work DCSA DCSA 7
+inst work lscc_distributed_dpram lscc_distributed_dpram 7
+inst work lscc_distributed_spram lscc_distributed_spram 7
+inst work lscc_ram_dp_true lscc_ram_dp_true 7
+inst work lscc_ram_dp_true lscc_ram_dp_true 7
+inst work lscc_ram_dp lscc_ram_dp 7
+inst work lscc_ram_dp lscc_ram_dp 7
+inst work lscc_ram_dq lscc_ram_dq 7
+inst work lscc_ram_dq lscc_ram_dq 7
+inst work lscc_distributed_dpram lscc_distributed_dpram 7
+inst work lscc_ram_dp_true lscc_ram_dp_true 7
+inst work sysmem0_ipgen_lscc_lram_core LRAM 7
+inst work DCS DCS 7
+inst work DCSA DCSA 7
+inst work DCS DCS 7
+inst work DCSA DCSA 7
+inst work lscc_distributed_dpram lscc_distributed_dpram 7
+inst work lscc_distributed_spram lscc_distributed_spram 7
+inst work lscc_ram_dp_true lscc_ram_dp_true 7
+inst work lscc_ram_dp_true lscc_ram_dp_true 7
+inst work lscc_ram_dp lscc_ram_dp 7
+inst work lscc_ram_dp lscc_ram_dp 7
+inst work lscc_ram_dq lscc_ram_dq 7
+inst work lscc_ram_dq lscc_ram_dq 7
+inst work lscc_distributed_dpram lscc_distributed_dpram 7
+inst work lscc_ram_dp_true lscc_ram_dp_true 7
+inst work sysmem0_ipgen_lscc_lram_core LRAM 7
+inst work DCC DCC 4
+inst work JTAGH25 JTAGH25 4
+inst work JTAGH25SOFT JTAGH25SOFT 4
+inst work DCC DCC 4
+inst work JTAGH19SOFT JTAGH19SOFT 4
+inst work DCC DCC 4
+inst work JTAGH19 JTAGH19 4
+inst work DCC DCC 4
+inst work JTAGH25 JTAGH25 4
+inst work JTAGH25SOFT JTAGH25SOFT 4
+inst work DCC DCC 4
+inst work JTAGH19SOFT JTAGH19SOFT 4
+inst work DCC DCC 4
+inst work JTAGH19 JTAGH19 4
+inst work HelloWorld_Top bhasa_zero 2
+inst work HelloWorld_Top bhasa_zero 2
+
+#identified top module
+top_module sysmem0_ipgen_lscc_sys_mem

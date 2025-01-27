@@ -1,0 +1,12 @@
+#Start recording tcl command: 1/25/2025 09:20:16
+#Project Location: C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero; Project name: bhasa_zero
+source "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/diamond_setup_template.tcl"
+pgr_project save "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1/impl1.xcf"
+prj_src add -exclude "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1/impl1.xcf"
+prj_src enable "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1/impl1.xcf"
+prj_src remove "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/efb.ipx"
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+pgr_project save "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/impl1/impl1.xcf"
+pgr_project close
+#Stop recording: 1/25/2025 10:25:03

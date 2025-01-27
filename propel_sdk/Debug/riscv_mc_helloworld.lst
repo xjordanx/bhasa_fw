@@ -1,0 +1,2146 @@
+
+riscv_mc_helloworld.elf:     file format elf32-littleriscv
+riscv_mc_helloworld.elf
+architecture: riscv:rv32, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00000000
+
+Program Header:
+    LOAD off    0x00001000 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x00000ddc memsz 0x000019a0 flags rwx
+
+Sections:
+Idx Name           Size      VMA       LMA       File off  Algn  Flags
+  0 .text          00000d48  00000000  00000000  00001000  2**4  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .gprof         00000000  00000d48  00000d48  00001ddc  2**2  CONTENTS
+  2 .ctors         00000000  00000d48  00000d48  00001ddc  2**2  CONTENTS
+  3 .dtors         00000000  00000d48  00000d48  00001ddc  2**2  CONTENTS
+  4 .rodata        0000007c  00000d48  00000d48  00001d48  2**2  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .data          00000018  00000dc4  00000dc4  00001dc4  2**2  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss           000001bc  00000ddc  00000ddc  00001ddc  2**2  ALLOC
+  7 .heap          00000000  00000f98  00000f98  00001de0  2**3  CONTENTS
+  8 .stack         00000a00  00000fa0  00000fa0  00001ddc  2**4  ALLOC
+  9 .debug_info    00001813  00000000  00000000  00001de0  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 10 .debug_abbrev  000009e9  00000000  00000000  000035f3  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 11 .debug_aranges 00000248  00000000  00000000  00003fe0  2**3  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 12 .debug_ranges  000001b0  00000000  00000000  00004228  2**3  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 13 .debug_macro   00002c54  00000000  00000000  000043d8  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_line    0000273f  00000000  00000000  0000702c  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_str     00008ef9  00000000  00000000  0000976b  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .comment       00000033  00000000  00000000  00012664  2**0  CONTENTS, READONLY
+ 17 .debug_frame   00000678  00000000  00000000  00012698  2**2  CONTENTS, READONLY, DEBUGGING, OCTETS
+SYMBOL TABLE:
+00000000 l    d  .text	00000000 .text
+00000d48 l    d  .gprof	00000000 .gprof
+00000d48 l    d  .ctors	00000000 .ctors
+00000d48 l    d  .dtors	00000000 .dtors
+00000d48 l    d  .rodata	00000000 .rodata
+00000dc4 l    d  .data	00000000 .data
+00000ddc l    d  .bss	00000000 .bss
+00000f98 l    d  .heap	00000000 .heap
+00000fa0 l    d  .stack	00000000 .stack
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 ./src/bsp/driver/riscv_mc/crt0.o
+0000017c l       .text	00000000 crtInit
+00000068 l       .text	00000000 __handle_isr
+0000005a l       .text	00000000 __handle_esr
+0000006a l       .text	00000000 __handle_exit
+00000198 l       .text	00000000 bss_init
+000001a4 l       .text	00000000 bss_loop
+000001b0 l       .text	00000000 bss_done
+000001b4 l       .text	00000000 infinitLoop
+00000000 l    df *ABS*	00000000 uart.c
+00000000 l    df *ABS*	00000000 exit.c
+00000000 l    df *ABS*	00000000 interrupt.c
+00000000 l    df *ABS*	00000000 iob.c
+00000ddc l     O .bss	00000004 s_putc_func
+00000de0 l     O .bss	00000004 s_getc_func
+00000de4 l     O .bss	00000004 s_flush_func
+000002fe l     F .text	0000003c iob_putc
+0000033a l     F .text	00000030 iob_getc
+0000036a l     F .text	00000030 iob_flush
+00000dc4 l     O .data	00000014 __stdio
+00000000 l    df *ABS*	00000000 pic.c
+00000000 l    df *ABS*	00000000 reg_access.c
+00000000 l    df *ABS*	00000000 gpio.c
+00000000 l    df *ABS*	00000000 main.c
+00000546 l     F .text	00000056 lscc_uart_putc
+0000059c l     F .text	00000014 lscc_uart_getc
+000005b0 l     F .text	00000014 lscc_uart_flush
+000005c4 l     F .text	0000005e bsp_init
+00000dec l     O .bss	00000001 idx.1
+00000dd8 l     O .data	00000001 pin_state.0
+00000000 l    df *ABS*	00000000 utils.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 puts.c
+00000000 l    df *ABS*	00000000 vfiprintf.c
+000007d8 l     F .text	0000004c __ultoa_invert
+00000000 l    df *ABS*	00000000 strnlen.c
+00000000 l    df *ABS*	00000000 fputc.c
+000004e6 g     F .text	00000060 gpio_output_write
+00000776 g     F .text	00000026 printf
+000015d8 g       .data	00000000 __global_pointer$
+00000cee g     F .text	00000028 .hidden __riscv_save_8
+00000d3a g     F .text	0000000c .hidden __riscv_restore_3
+00000d26 g     F .text	00000020 .hidden __riscv_restore_10
+00000cee g     F .text	00000028 .hidden __riscv_save_11
+00000d48 g       .text	00000000 _etext
+000003c2 g     F .text	0000003a pic_int_pending
+00000d48 g       .ctors	00000000 _ctors_end
+00000d3a g     F .text	0000000c .hidden __riscv_restore_2
+000001c8 g     F .text	000000be irq_callback
+00000286 g     F .text	00000040 esr_callback
+000003fc g     F .text	00000046 reg_32b_modify
+0000079c g     F .text	0000003c puts
+00000700 g     F .text	0000002c .hidden __udivsi3
+00000ddc g       .bss	00000000 _bss_start
+00000ce6 g     F .text	00000030 .hidden __riscv_save_12
+00000824 g     F .text	0000048a __i_vfprintf
+00000d26 g     F .text	00000020 .hidden __riscv_restore_11
+00000d16 g     F .text	0000000c .hidden __riscv_save_1
+00000d3a g     F .text	0000000c .hidden __riscv_restore_0
+00000cfc g     F .text	0000001a .hidden __riscv_save_7
+00000d30 g     F .text	00000016 .hidden __riscv_restore_5
+00000de8 g     O .bss	00000004 pic_dev
+000002c6 g     F .text	00000038 iob_init
+00000cae g     F .text	00000018 strnlen
+00000d30 g     F .text	00000016 .hidden __riscv_restore_6
+00000f98 g       .bss	00000000 _bss_end
+00000cee g     F .text	00000028 .hidden __riscv_save_9
+0000072c g     F .text	00000008 .hidden __umodsi3
+00000cfc g     F .text	0000001a .hidden __riscv_save_4
+00000090 g     F .text	0000008a uart_init
+00000d16 g     F .text	0000000c .hidden __riscv_save_3
+00000f40 g     O .bss	00000058 uart_core_uart
+00000000 g       .text	00000000 _ftext
+00000000 g       .text	00000000 _start
+00000d48 g       .ctors	00000000 _ctors_start
+00000cee g     F .text	00000028 .hidden __riscv_save_10
+00000d30 g     F .text	00000016 .hidden __riscv_restore_4
+00000d26 g     F .text	00000020 .hidden __riscv_restore_8
+00000cfc g     F .text	0000001a .hidden __riscv_save_6
+00000a00 g       *ABS*	00000000 _STACK_SIZE
+00000d26 g     F .text	00000020 .hidden __riscv_restore_9
+00000d30 g     F .text	00000016 .hidden __riscv_restore_7
+00000622 g     F .text	00000062 main
+00000010 g       .text	00000000 trap_entry
+00000000 g       *ABS*	00000000 _HEAP_SIZE
+0000011a g     F .text	00000062 uart_putc
+0000039a g     F .text	00000028 pic_int_clear
+00000692 g     F .text	00000048 delayCycle
+00000cc6 g     F .text	00000020 putc
+000006f8 g     F .text	00000058 .hidden __divsi3
+000006da g     F .text	0000001c delay
+000019a0 g       .stack	00000000 _stack_start
+00000e38 g     O .bss	00000108 gpio_inst
+00000cc6 g     F .text	00000020 fputc
+00000d16 g     F .text	0000000c .hidden __riscv_save_2
+00000cfc g     F .text	0000001a .hidden __riscv_save_5
+00000000 g     F *ABS*	000004f4 vfscanf
+00000df0 g     O .bss	00000048 int_table
+00000750 g     F .text	00000024 .hidden __modsi3
+00000d22 g     F .text	00000024 .hidden __riscv_restore_12
+00000d16 g     F .text	0000000c .hidden __riscv_save_0
+000001bc  w    F .text	0000000c _exit
+00000d7c  w    O .rodata	0000000c __iob
+00000684  w    F .text	0000000e trap_init
+00000442 g     F .text	000000a4 gpio_init
+00000d3a g     F .text	0000000c .hidden __riscv_restore_1
+00000d48 g       .dtors	00000000 _dtors_start
+00000824 g     F .text	000004e0 vfprintf
+
+
+
+Disassembly of section .text:
+
+00000000 <_ftext>:
+_ftext():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:8
+.global main
+.weak   irq_callback
+.weak   esr_callback
+
+_start:
+  j crtInit
+   0:	17c0006f          	j	17c <crtInit>
+	...
+
+00000010 <trap_entry>:
+trap_entry():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:13
+
+.global  trap_entry
+.align 4
+trap_entry:
+  sw x1,  - 1*4(sp)
+  10:	fe112e23          	sw	ra,-4(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:14
+  sw x5,  - 2*4(sp)
+  14:	fe512c23          	sw	t0,-8(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:15
+  sw x6,  - 3*4(sp)
+  18:	fe612a23          	sw	t1,-12(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:16
+  sw x7,  - 4*4(sp)
+  1c:	fe712823          	sw	t2,-16(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:17
+  sw x10, - 5*4(sp)
+  20:	fea12623          	sw	a0,-20(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:18
+  sw x11, - 6*4(sp)
+  24:	feb12423          	sw	a1,-24(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:19
+  sw x12, - 7*4(sp)
+  28:	fec12223          	sw	a2,-28(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:20
+  sw x13, - 8*4(sp)
+  2c:	fed12023          	sw	a3,-32(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:21
+  sw x14, - 9*4(sp)
+  30:	fce12e23          	sw	a4,-36(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:22
+  sw x15, -10*4(sp)
+  34:	fcf12c23          	sw	a5,-40(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:23
+  sw x16, -11*4(sp)
+  38:	fd012a23          	sw	a6,-44(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:24
+  sw x17, -12*4(sp)
+  3c:	fd112823          	sw	a7,-48(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:25
+  sw x28, -13*4(sp)
+  40:	fdc12623          	sw	t3,-52(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:26
+  sw x29, -14*4(sp)
+  44:	fdd12423          	sw	t4,-56(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:27
+  sw x30, -15*4(sp)
+  48:	fde12223          	sw	t5,-60(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:28
+  sw x31, -16*4(sp)
+  4c:	fdf12023          	sw	t6,-64(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:29
+  addi sp,sp,-16*4
+  50:	7139                	addi	sp,sp,-64
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:30
+  csrr a0, mcause    // load mcause value as parameter
+  52:	34202573          	csrr	a0,mcause
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:31
+  bltz a0, __handle_isr
+  56:	00054963          	bltz	a0,68 <__handle_isr>
+
+0000005a <__handle_esr>:
+__handle_esr():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:33
+__handle_esr:
+  csrr a1, mepc
+  5a:	341025f3          	csrr	a1,mepc
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:34
+  mv   a2, sp
+  5e:	860a                	mv	a2,sp
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:35
+  call esr_callback
+  60:	241d                	jal	286 <esr_callback>
+  62:	34151073          	csrw	mepc,a0
+  66:	a011                	j	6a <__handle_exit>
+
+00000068 <__handle_isr>:
+__handle_isr():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:36
+  csrw mepc, a0
+  68:	2285                	jal	1c8 <irq_callback>
+
+0000006a <__handle_exit>:
+__handle_exit():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:36
+  6a:	50f2                	lw	ra,60(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:37
+  j    __handle_exit
+  6c:	52e2                	lw	t0,56(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:39
+__handle_isr:
+  call irq_callback
+  6e:	5352                	lw	t1,52(sp)
+  70:	53c2                	lw	t2,48(sp)
+  72:	5532                	lw	a0,44(sp)
+  74:	55a2                	lw	a1,40(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:41
+__handle_exit:
+  lw x1 , 15*4(sp)
+  76:	5612                	lw	a2,36(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:42
+  lw x5,  14*4(sp)
+  78:	5682                	lw	a3,32(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:43
+  lw x6,  13*4(sp)
+  7a:	4772                	lw	a4,28(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:44
+  lw x7,  12*4(sp)
+  7c:	47e2                	lw	a5,24(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:45
+  lw x10, 11*4(sp)
+  7e:	4852                	lw	a6,20(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:46
+  lw x11, 10*4(sp)
+  80:	48c2                	lw	a7,16(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:47
+  lw x12,  9*4(sp)
+  82:	4e32                	lw	t3,12(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:48
+  lw x13,  8*4(sp)
+  84:	4ea2                	lw	t4,8(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:49
+  lw x14,  7*4(sp)
+  86:	4f12                	lw	t5,4(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:50
+  lw x15,  6*4(sp)
+  88:	4f82                	lw	t6,0(sp)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:51
+  lw x16,  5*4(sp)
+  8a:	6121                	addi	sp,sp,64
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:52
+  lw x17,  4*4(sp)
+  8c:	30200073          	mret
+
+00000090 <uart_init>:
+uart_init():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:173
+unsigned char uart_init(struct uart_instance *this_uart,
+			unsigned int base_addr,
+			unsigned int sys_clk,
+			unsigned int baud_rate,
+			unsigned char stop_bits, unsigned char data_width)
+{
+  90:	7139                	addi	sp,sp,-64
+  92:	de22                	sw	s0,60(sp)
+  94:	0080                	addi	s0,sp,64
+  96:	fca42e23          	sw	a0,-36(s0)
+  9a:	fcb42c23          	sw	a1,-40(s0)
+  9e:	fcc42a23          	sw	a2,-44(s0)
+  a2:	fcd42823          	sw	a3,-48(s0)
+  a6:	86ba                	mv	a3,a4
+  a8:	873e                	mv	a4,a5
+  aa:	87b6                	mv	a5,a3
+  ac:	fcf407a3          	sb	a5,-49(s0)
+  b0:	87ba                	mv	a5,a4
+  b2:	fcf40723          	sb	a5,-50(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:175
+	volatile struct uart_dev *dev;
+	if (NULL == this_uart) {
+  b6:	fdc42783          	lw	a5,-36(s0)
+  ba:	e399                	bnez	a5,c0 <uart_init+0x30>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:176
+		return 1;
+  bc:	4785                	li	a5,1
+  be:	a891                	j	112 <uart_init+0x82>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:178
+	}
+	this_uart->base = base_addr;
+  c0:	fdc42783          	lw	a5,-36(s0)
+  c4:	fd842703          	lw	a4,-40(s0)
+  c8:	c3d8                	sw	a4,4(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:179
+	dev = (volatile struct uart_dev *) (this_uart->base);
+  ca:	fdc42783          	lw	a5,-36(s0)
+  ce:	43dc                	lw	a5,4(a5)
+  d0:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:182
+
+	/*initialize the instance data */
+	this_uart->base = base_addr;
+  d4:	fdc42783          	lw	a5,-36(s0)
+  d8:	fd842703          	lw	a4,-40(s0)
+  dc:	c3d8                	sw	a4,4(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:183
+	this_uart->sys_clk = sys_clk;
+  de:	fdc42783          	lw	a5,-36(s0)
+  e2:	fd442703          	lw	a4,-44(s0)
+  e6:	c798                	sw	a4,8(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:184
+	this_uart->baudrate = baud_rate;
+  e8:	fdc42783          	lw	a5,-36(s0)
+  ec:	fd042703          	lw	a4,-48(s0)
+  f0:	cb98                	sw	a4,16(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:185
+	this_uart->databits = data_width;
+  f2:	fce44703          	lbu	a4,-50(s0)
+  f6:	fdc42783          	lw	a5,-36(s0)
+  fa:	cbd8                	sw	a4,20(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:186
+	this_uart->stopbits = stop_bits;
+  fc:	fcf44703          	lbu	a4,-49(s0)
+ 100:	fdc42783          	lw	a5,-36(s0)
+ 104:	cf98                	sw	a4,24(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:191
+
+	/* set the data-configuration */
+	//uart_config(this_uart, 8, 0, 0, 1);
+
+	this_uart->blockingTx = 1;
+ 106:	fdc42783          	lw	a5,-36(s0)
+ 10a:	4705                	li	a4,1
+ 10c:	00e78f23          	sb	a4,30(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:218
+		pic_isr_register(this_uart->intrLevel, uart_isr, this_uart);	//uart_isr have two parameter!!!!!
+	}
+#endif
+
+	/* all done! */
+	return 0;
+ 110:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:219
+}
+ 112:	853e                	mv	a0,a5
+ 114:	5472                	lw	s0,60(sp)
+ 116:	6121                	addi	sp,sp,64
+ 118:	8082                	ret
+
+0000011a <uart_putc>:
+uart_putc():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:291
+ * Returns 0 if no error
+ ***************************************************************
+*/
+unsigned char uart_putc(struct uart_instance *this_uart,
+			unsigned char ucChar)
+{
+ 11a:	7179                	addi	sp,sp,-48
+ 11c:	d622                	sw	s0,44(sp)
+ 11e:	1800                	addi	s0,sp,48
+ 120:	fca42e23          	sw	a0,-36(s0)
+ 124:	87ae                	mv	a5,a1
+ 126:	fcf40da3          	sb	a5,-37(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:294
+	volatile unsigned char uiValue;
+	volatile struct uart_dev *dev;
+	if (NULL == this_uart) {
+ 12a:	fdc42783          	lw	a5,-36(s0)
+ 12e:	e399                	bnez	a5,134 <uart_putc+0x1a>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:295
+		return 1;
+ 130:	4785                	li	a5,1
+ 132:	a089                	j	174 <uart_putc+0x5a>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:297
+	}
+	dev = (volatile struct uart_dev *) (this_uart->base);
+ 134:	fdc42783          	lw	a5,-36(s0)
+ 138:	43dc                	lw	a5,4(a5)
+ 13a:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:329
+	} else
+#endif
+	{
+		do {
+			/* if uart's ready to accept character, send immediately */
+			uiValue = dev->lsr;
+ 13e:	fec42783          	lw	a5,-20(s0)
+ 142:	4bdc                	lw	a5,20(a5)
+ 144:	0ff7f793          	zext.b	a5,a5
+ 148:	fef405a3          	sb	a5,-21(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:330
+			if (uiValue & UART_LSR_TX_RDY_MASK) {
+ 14c:	feb44783          	lbu	a5,-21(s0)
+ 150:	0ff7f793          	zext.b	a5,a5
+ 154:	0207f793          	andi	a5,a5,32
+ 158:	cb81                	beqz	a5,168 <uart_putc+0x4e>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:331
+				dev->rxtx = ucChar;
+ 15a:	fdb44703          	lbu	a4,-37(s0)
+ 15e:	fec42783          	lw	a5,-20(s0)
+ 162:	c398                	sw	a4,0(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:332
+				return (0);
+ 164:	4781                	li	a5,0
+ 166:	a039                	j	174 <uart_putc+0x5a>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:336
+			}
+
+			/* if non-blocking tx, return immediately */
+			if (this_uart->blockingTx == 0)
+ 168:	fdc42783          	lw	a5,-36(s0)
+ 16c:	01e7c783          	lbu	a5,30(a5)
+ 170:	f7f9                	bnez	a5,13e <uart_putc+0x24>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:337
+				return (UART_ERR_WOULD_BLOCK);
+ 172:	4785                	li	a5,1
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/uart/uart.c:344
+		} while (1);
+	}
+
+	/* all done */
+	return 0;
+}
+ 174:	853e                	mv	a0,a5
+ 176:	5432                	lw	s0,44(sp)
+ 178:	6145                	addi	sp,sp,48
+ 17a:	8082                	ret
+
+0000017c <crtInit>:
+crtInit():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:63
+  mret
+  .text
+
+
+crtInit:
+  la t0, trap_entry
+ 17c:	01000293          	li	t0,16
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:64
+  csrw mtvec, t0
+ 180:	30529073          	csrw	mtvec,t0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:65
+  csrwi mstatus, 0
+ 184:	30005073          	csrwi	mstatus,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:66
+  csrwi mie, 0
+ 188:	30405073          	csrwi	mie,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:70
+
+  .option push
+  .option norelax
+  la gp, __global_pointer$
+ 18c:	00001197          	auipc	gp,0x1
+ 190:	44c18193          	addi	gp,gp,1100 # 15d8 <__global_pointer$>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:72
+  .option pop
+  la sp, _stack_start
+ 194:	3c818113          	addi	sp,gp,968 # 19a0 <_stack_start>
+
+00000198 <bss_init>:
+bss_init():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:75
+
+bss_init:
+  la a0, _bss_start
+ 198:	00001517          	auipc	a0,0x1
+ 19c:	c4450513          	addi	a0,a0,-956 # ddc <s_putc_func>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:76
+  la a1, _bss_end
+ 1a0:	9c018593          	addi	a1,gp,-1600 # f98 <_bss_end>
+
+000001a4 <bss_loop>:
+bss_loop():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:78
+bss_loop:
+  beq a0,a1,bss_done
+ 1a4:	00b50663          	beq	a0,a1,1b0 <bss_done>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:79
+  sw zero,0(a0)
+ 1a8:	00052023          	sw	zero,0(a0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:80
+  add a0,a0,4
+ 1ac:	0511                	addi	a0,a0,4
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:81
+  j bss_loop
+ 1ae:	bfdd                	j	1a4 <bss_loop>
+
+000001b0 <bss_done>:
+bss_done():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:105
+//  li a0, 0x880     //880 enable timer + external interrupts
+//  csrw mie,a0
+//  li a0, 0x1808     //1808 enable interrupts
+//  csrw mstatus,a0
+
+  call main
+ 1b0:	298d                	jal	622 <main>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:106
+  call _exit
+ 1b2:	2029                	jal	1bc <_exit>
+
+000001b4 <infinitLoop>:
+infinitLoop():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:108
+infinitLoop:
+  j infinitLoop
+ 1b4:	a001                	j	1b4 <infinitLoop>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:111
+
+irq_callback:
+  ret
+ 1b6:	8082                	ret
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/crt0.S:114
+
+esr_callback:
+  j esr_callback
+ 1b8:	0ce0006f          	j	286 <esr_callback>
+
+000001bc <_exit>:
+_exit():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/exit.c:57
+#include <stdio.h>
+#include <sys/cdefs.h>
+
+void __attribute__ ((weak, __noreturn__))
+_exit (int status)
+{
+ 1bc:	1101                	addi	sp,sp,-32
+ 1be:	ce22                	sw	s0,28(sp)
+ 1c0:	1000                	addi	s0,sp,32
+ 1c2:	fea42623          	sw	a0,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/exit.c:59 (discriminator 1)
+	(void) status;
+	while(1);
+ 1c6:	a001                	j	1c6 <_exit+0xa>
+
+000001c8 <irq_callback>:
+irq_callback():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:57
+#include "interrupt.h"
+
+extern struct interrupt_entry int_table[S_INT_NUM];
+
+void irq_callback(unsigned int mcause)
+{
+ 1c8:	7179                	addi	sp,sp,-48
+ 1ca:	d606                	sw	ra,44(sp)
+ 1cc:	d422                	sw	s0,40(sp)
+ 1ce:	1800                	addi	s0,sp,48
+ 1d0:	fca42e23          	sw	a0,-36(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:59
+
+	if ((mcause & MCAUSE_VAL_MASK) == MCAUSE_VAL_MTIP) {
+ 1d4:	fdc42783          	lw	a5,-36(s0)
+ 1d8:	00f7f713          	andi	a4,a5,15
+ 1dc:	479d                	li	a5,7
+ 1de:	02f71263          	bne	a4,a5,202 <irq_callback+0x3a>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:60
+		if (int_table[S_INT_TIMER].isr) {
+ 1e2:	6785                	lui	a5,0x1
+ 1e4:	df078793          	addi	a5,a5,-528 # df0 <int_table>
+ 1e8:	43bc                	lw	a5,64(a5)
+ 1ea:	cbc9                	beqz	a5,27c <irq_callback+0xb4>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:61
+			int_table[S_INT_TIMER].isr(int_table[S_INT_TIMER].
+ 1ec:	6785                	lui	a5,0x1
+ 1ee:	df078793          	addi	a5,a5,-528 # df0 <int_table>
+ 1f2:	43b8                	lw	a4,64(a5)
+ 1f4:	6785                	lui	a5,0x1
+ 1f6:	df078793          	addi	a5,a5,-528 # df0 <int_table>
+ 1fa:	43fc                	lw	a5,68(a5)
+ 1fc:	853e                	mv	a0,a5
+ 1fe:	9702                	jalr	a4
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:76
+				}
+				pic_int_clear(idx);
+			}
+		}
+	}
+}
+ 200:	a8b5                	j	27c <irq_callback+0xb4>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:64
+	} else if ((mcause & MCAUSE_VAL_MASK) == MCASUE_VAL_MEIP) {
+ 202:	fdc42783          	lw	a5,-36(s0)
+ 206:	00f7f713          	andi	a4,a5,15
+ 20a:	47ad                	li	a5,11
+ 20c:	06f71863          	bne	a4,a5,27c <irq_callback+0xb4>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:66
+		for (idx = S_INT_PIC0; idx < S_INT_NUM; idx++) {
+ 210:	fe042623          	sw	zero,-20(s0)
+ 214:	a8b9                	j	272 <irq_callback+0xaa>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:67
+			if (pic_int_pending(idx)) {
+ 216:	fec42783          	lw	a5,-20(s0)
+ 21a:	0ff7f793          	zext.b	a5,a5
+ 21e:	853e                	mv	a0,a5
+ 220:	224d                	jal	3c2 <pic_int_pending>
+ 222:	87aa                	mv	a5,a0
+ 224:	c3b1                	beqz	a5,268 <irq_callback+0xa0>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:68
+				if (int_table[idx].isr) {
+ 226:	6785                	lui	a5,0x1
+ 228:	df078713          	addi	a4,a5,-528 # df0 <int_table>
+ 22c:	fec42783          	lw	a5,-20(s0)
+ 230:	078e                	slli	a5,a5,0x3
+ 232:	97ba                	add	a5,a5,a4
+ 234:	439c                	lw	a5,0(a5)
+ 236:	c39d                	beqz	a5,25c <irq_callback+0x94>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:69
+					int_table[idx].isr(int_table[idx].
+ 238:	6785                	lui	a5,0x1
+ 23a:	df078713          	addi	a4,a5,-528 # df0 <int_table>
+ 23e:	fec42783          	lw	a5,-20(s0)
+ 242:	078e                	slli	a5,a5,0x3
+ 244:	97ba                	add	a5,a5,a4
+ 246:	4394                	lw	a3,0(a5)
+ 248:	6785                	lui	a5,0x1
+ 24a:	df078713          	addi	a4,a5,-528 # df0 <int_table>
+ 24e:	fec42783          	lw	a5,-20(s0)
+ 252:	078e                	slli	a5,a5,0x3
+ 254:	97ba                	add	a5,a5,a4
+ 256:	43dc                	lw	a5,4(a5)
+ 258:	853e                	mv	a0,a5
+ 25a:	9682                	jalr	a3
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:72
+				pic_int_clear(idx);
+ 25c:	fec42783          	lw	a5,-20(s0)
+ 260:	0ff7f793          	zext.b	a5,a5
+ 264:	853e                	mv	a0,a5
+ 266:	2a15                	jal	39a <pic_int_clear>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:66 (discriminator 2)
+		for (idx = S_INT_PIC0; idx < S_INT_NUM; idx++) {
+ 268:	fec42783          	lw	a5,-20(s0)
+ 26c:	0785                	addi	a5,a5,1
+ 26e:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:66 (discriminator 1)
+ 272:	fec42703          	lw	a4,-20(s0)
+ 276:	47a1                	li	a5,8
+ 278:	f8e7dfe3          	bge	a5,a4,216 <irq_callback+0x4e>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:76
+}
+ 27c:	0001                	nop
+ 27e:	50b2                	lw	ra,44(sp)
+ 280:	5422                	lw	s0,40(sp)
+ 282:	6145                	addi	sp,sp,48
+ 284:	8082                	ret
+
+00000286 <esr_callback>:
+esr_callback():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:80
+
+unsigned int esr_callback(unsigned int mcause, unsigned int mepc,
+			  unsigned int sp)
+{
+ 286:	1101                	addi	sp,sp,-32
+ 288:	ce06                	sw	ra,28(sp)
+ 28a:	cc22                	sw	s0,24(sp)
+ 28c:	1000                	addi	s0,sp,32
+ 28e:	fea42623          	sw	a0,-20(s0)
+ 292:	feb42423          	sw	a1,-24(s0)
+ 296:	fec42223          	sw	a2,-28(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:82
+
+	printf("Exception caught: mcause=%d ,", mcause);
+ 29a:	fec42583          	lw	a1,-20(s0)
+ 29e:	6785                	lui	a5,0x1
+ 2a0:	d4878513          	addi	a0,a5,-696 # d48 <_etext>
+ 2a4:	29c9                	jal	776 <printf>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:83
+	printf("mepc=%x, sp=%x \r\n", mepc, sp);
+ 2a6:	fe442603          	lw	a2,-28(s0)
+ 2aa:	fe842583          	lw	a1,-24(s0)
+ 2ae:	6785                	lui	a5,0x1
+ 2b0:	d6878513          	addi	a0,a5,-664 # d68 <_etext+0x20>
+ 2b4:	21c9                	jal	776 <printf>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:107
+		break;
+	}
+
+	printf("\r\n");
+#endif
+	return mepc + 4;
+ 2b6:	fe842783          	lw	a5,-24(s0)
+ 2ba:	0791                	addi	a5,a5,4
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/interrupt.c:108
+}
+ 2bc:	853e                	mv	a0,a5
+ 2be:	40f2                	lw	ra,28(sp)
+ 2c0:	4462                	lw	s0,24(sp)
+ 2c2:	6105                	addi	sp,sp,32
+ 2c4:	8082                	ret
+
+000002c6 <iob_init>:
+iob_init():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:63
+static lscc_getc_func s_getc_func;
+static lscc_flush_func s_flush_func;
+
+
+void iob_init(lscc_putc_func putc_func, lscc_getc_func getc_func, lscc_flush_func flush_func)
+{
+ 2c6:	1101                	addi	sp,sp,-32
+ 2c8:	ce22                	sw	s0,28(sp)
+ 2ca:	1000                	addi	s0,sp,32
+ 2cc:	fea42623          	sw	a0,-20(s0)
+ 2d0:	feb42423          	sw	a1,-24(s0)
+ 2d4:	fec42223          	sw	a2,-28(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:64
+	s_putc_func = putc_func;
+ 2d8:	6785                	lui	a5,0x1
+ 2da:	fec42703          	lw	a4,-20(s0)
+ 2de:	dce7ae23          	sw	a4,-548(a5) # ddc <s_putc_func>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:65
+	s_getc_func = getc_func;
+ 2e2:	6785                	lui	a5,0x1
+ 2e4:	fe842703          	lw	a4,-24(s0)
+ 2e8:	dee7a023          	sw	a4,-544(a5) # de0 <s_getc_func>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:66
+	s_flush_func = flush_func;
+ 2ec:	6785                	lui	a5,0x1
+ 2ee:	fe442703          	lw	a4,-28(s0)
+ 2f2:	dee7a223          	sw	a4,-540(a5) # de4 <s_flush_func>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:67
+}
+ 2f6:	0001                	nop
+ 2f8:	4472                	lw	s0,28(sp)
+ 2fa:	6105                	addi	sp,sp,32
+ 2fc:	8082                	ret
+
+000002fe <iob_putc>:
+iob_putc():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:71
+
+
+static int iob_putc(char c, FILE *file)
+{
+ 2fe:	1101                	addi	sp,sp,-32
+ 300:	ce06                	sw	ra,28(sp)
+ 302:	cc22                	sw	s0,24(sp)
+ 304:	1000                	addi	s0,sp,32
+ 306:	87aa                	mv	a5,a0
+ 308:	feb42423          	sw	a1,-24(s0)
+ 30c:	fef407a3          	sb	a5,-17(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:72
+	return s_putc_func ? (*s_putc_func)(c, file) : EOF;
+ 310:	6785                	lui	a5,0x1
+ 312:	ddc7a783          	lw	a5,-548(a5) # ddc <s_putc_func>
+ 316:	cf81                	beqz	a5,32e <iob_putc+0x30>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:72 (discriminator 1)
+ 318:	6785                	lui	a5,0x1
+ 31a:	ddc7a703          	lw	a4,-548(a5) # ddc <s_putc_func>
+ 31e:	fef40783          	lb	a5,-17(s0)
+ 322:	fe842583          	lw	a1,-24(s0)
+ 326:	853e                	mv	a0,a5
+ 328:	9702                	jalr	a4
+ 32a:	87aa                	mv	a5,a0
+ 32c:	a011                	j	330 <iob_putc+0x32>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:72 (discriminator 2)
+ 32e:	57fd                	li	a5,-1
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:73 (discriminator 5)
+}
+ 330:	853e                	mv	a0,a5
+ 332:	40f2                	lw	ra,28(sp)
+ 334:	4462                	lw	s0,24(sp)
+ 336:	6105                	addi	sp,sp,32
+ 338:	8082                	ret
+
+0000033a <iob_getc>:
+iob_getc():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:77
+
+
+static int iob_getc(FILE *file)
+{
+ 33a:	1101                	addi	sp,sp,-32
+ 33c:	ce06                	sw	ra,28(sp)
+ 33e:	cc22                	sw	s0,24(sp)
+ 340:	1000                	addi	s0,sp,32
+ 342:	fea42623          	sw	a0,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:78
+	return s_getc_func ? (*s_getc_func)(file) : EOF;
+ 346:	6785                	lui	a5,0x1
+ 348:	de07a783          	lw	a5,-544(a5) # de0 <s_getc_func>
+ 34c:	cb89                	beqz	a5,35e <iob_getc+0x24>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:78 (discriminator 1)
+ 34e:	6785                	lui	a5,0x1
+ 350:	de07a783          	lw	a5,-544(a5) # de0 <s_getc_func>
+ 354:	fec42503          	lw	a0,-20(s0)
+ 358:	9782                	jalr	a5
+ 35a:	87aa                	mv	a5,a0
+ 35c:	a011                	j	360 <iob_getc+0x26>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:78 (discriminator 2)
+ 35e:	57fd                	li	a5,-1
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:79 (discriminator 5)
+}
+ 360:	853e                	mv	a0,a5
+ 362:	40f2                	lw	ra,28(sp)
+ 364:	4462                	lw	s0,24(sp)
+ 366:	6105                	addi	sp,sp,32
+ 368:	8082                	ret
+
+0000036a <iob_flush>:
+iob_flush():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:83
+
+
+static int iob_flush(FILE *file)
+{
+ 36a:	1101                	addi	sp,sp,-32
+ 36c:	ce06                	sw	ra,28(sp)
+ 36e:	cc22                	sw	s0,24(sp)
+ 370:	1000                	addi	s0,sp,32
+ 372:	fea42623          	sw	a0,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:84
+	return s_flush_func ? (*s_flush_func)(file) : 0;
+ 376:	6785                	lui	a5,0x1
+ 378:	de47a783          	lw	a5,-540(a5) # de4 <s_flush_func>
+ 37c:	cb89                	beqz	a5,38e <iob_flush+0x24>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:84 (discriminator 1)
+ 37e:	6785                	lui	a5,0x1
+ 380:	de47a783          	lw	a5,-540(a5) # de4 <s_flush_func>
+ 384:	fec42503          	lw	a0,-20(s0)
+ 388:	9782                	jalr	a5
+ 38a:	87aa                	mv	a5,a0
+ 38c:	a011                	j	390 <iob_flush+0x26>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:84 (discriminator 2)
+ 38e:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/iob.c:85 (discriminator 5)
+}
+ 390:	853e                	mv	a0,a5
+ 392:	40f2                	lw	ra,28(sp)
+ 394:	4462                	lw	s0,24(sp)
+ 396:	6105                	addi	sp,sp,32
+ 398:	8082                	ret
+
+0000039a <pic_int_clear>:
+pic_int_clear():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:94
+	pic_dev->pic_en &= (~(1 << src));
+	return 0;
+}
+
+unsigned char pic_int_clear(unsigned char src)
+{
+ 39a:	1101                	addi	sp,sp,-32
+ 39c:	ce22                	sw	s0,28(sp)
+ 39e:	1000                	addi	s0,sp,32
+ 3a0:	87aa                	mv	a5,a0
+ 3a2:	fef407a3          	sb	a5,-17(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:95
+	pic_dev->pic_status = 1 << (src);
+ 3a6:	fef44783          	lbu	a5,-17(s0)
+ 3aa:	4705                	li	a4,1
+ 3ac:	00f71733          	sll	a4,a4,a5
+ 3b0:	6785                	lui	a5,0x1
+ 3b2:	de87a783          	lw	a5,-536(a5) # de8 <pic_dev>
+ 3b6:	c398                	sw	a4,0(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:96
+	return 0;
+ 3b8:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:97
+}
+ 3ba:	853e                	mv	a0,a5
+ 3bc:	4472                	lw	s0,28(sp)
+ 3be:	6105                	addi	sp,sp,32
+ 3c0:	8082                	ret
+
+000003c2 <pic_int_pending>:
+pic_int_pending():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:100
+
+unsigned char pic_int_pending(unsigned char src)
+{
+ 3c2:	7179                	addi	sp,sp,-48
+ 3c4:	d622                	sw	s0,44(sp)
+ 3c6:	1800                	addi	s0,sp,48
+ 3c8:	87aa                	mv	a5,a0
+ 3ca:	fcf40fa3          	sb	a5,-33(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:101
+	unsigned int ifr = pic_dev->pic_status;
+ 3ce:	6785                	lui	a5,0x1
+ 3d0:	de87a783          	lw	a5,-536(a5) # de8 <pic_dev>
+ 3d4:	439c                	lw	a5,0(a5)
+ 3d6:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:103
+
+	if (ifr & (1 << src)) {
+ 3da:	fdf44783          	lbu	a5,-33(s0)
+ 3de:	4705                	li	a4,1
+ 3e0:	00f717b3          	sll	a5,a4,a5
+ 3e4:	873e                	mv	a4,a5
+ 3e6:	fec42783          	lw	a5,-20(s0)
+ 3ea:	8ff9                	and	a5,a5,a4
+ 3ec:	c399                	beqz	a5,3f2 <pic_int_pending+0x30>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:104
+		return 1;
+ 3ee:	4785                	li	a5,1
+ 3f0:	a011                	j	3f4 <pic_int_pending+0x32>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:107
+	}
+
+	return 0;
+ 3f2:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/pic.c:108
+}
+ 3f4:	853e                	mv	a0,a5
+ 3f6:	5432                	lw	s0,44(sp)
+ 3f8:	6145                	addi	sp,sp,48
+ 3fa:	8082                	ret
+
+000003fc <reg_32b_modify>:
+reg_32b_modify():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/reg_access.c:73
+	return 0;
+}
+
+unsigned char reg_32b_modify(unsigned int reg_addr, unsigned int bits_mask,
+			     unsigned int value)
+{
+ 3fc:	7179                	addi	sp,sp,-48
+ 3fe:	d622                	sw	s0,44(sp)
+ 400:	1800                	addi	s0,sp,48
+ 402:	fca42e23          	sw	a0,-36(s0)
+ 406:	fcb42c23          	sw	a1,-40(s0)
+ 40a:	fcc42a23          	sw	a2,-44(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/reg_access.c:74
+	unsigned int volatile *reg_value = (void *) reg_addr;
+ 40e:	fdc42783          	lw	a5,-36(s0)
+ 412:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/reg_access.c:77
+
+	//*reg_value = ((*reg_value) & ~bits_mask) | value;
+	*reg_value = ((*reg_value) & (~bits_mask)) | (value & bits_mask);
+ 416:	fec42783          	lw	a5,-20(s0)
+ 41a:	4398                	lw	a4,0(a5)
+ 41c:	fd842783          	lw	a5,-40(s0)
+ 420:	fff7c793          	not	a5,a5
+ 424:	8f7d                	and	a4,a4,a5
+ 426:	fd442683          	lw	a3,-44(s0)
+ 42a:	fd842783          	lw	a5,-40(s0)
+ 42e:	8ff5                	and	a5,a5,a3
+ 430:	8f5d                	or	a4,a4,a5
+ 432:	fec42783          	lw	a5,-20(s0)
+ 436:	c398                	sw	a4,0(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/reg_access.c:78
+	return 0;
+ 438:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/riscv_mc/reg_access.c:79
+}
+ 43a:	853e                	mv	a0,a5
+ 43c:	5432                	lw	s0,44(sp)
+ 43e:	6145                	addi	sp,sp,48
+ 440:	8082                	ret
+
+00000442 <gpio_init>:
+gpio_init():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:60
+#include <stddef.h>
+
+unsigned char gpio_init(struct gpio_instance *this_gpio,
+			unsigned int base_addr,
+			unsigned int lines_num, unsigned int gpio_dirs)
+{
+ 442:	7179                	addi	sp,sp,-48
+ 444:	d622                	sw	s0,44(sp)
+ 446:	1800                	addi	s0,sp,48
+ 448:	fca42e23          	sw	a0,-36(s0)
+ 44c:	fcb42c23          	sw	a1,-40(s0)
+ 450:	fcc42a23          	sw	a2,-44(s0)
+ 454:	fcd42823          	sw	a3,-48(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:61
+	unsigned int index = 0;
+ 458:	fe042623          	sw	zero,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:62
+	if (NULL == this_gpio) {
+ 45c:	fdc42783          	lw	a5,-36(s0)
+ 460:	e399                	bnez	a5,466 <gpio_init+0x24>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:63
+		return 1;
+ 462:	4785                	li	a5,1
+ 464:	a8ad                	j	4de <gpio_init+0x9c>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:65
+	}
+	this_gpio->base_address = base_addr;
+ 466:	fdc42783          	lw	a5,-36(s0)
+ 46a:	fd842703          	lw	a4,-40(s0)
+ 46e:	c3d8                	sw	a4,4(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:67
+
+	for (index = 0; index < lines_num; index++) {
+ 470:	fe042623          	sw	zero,-20(s0)
+ 474:	a8b1                	j	4d0 <gpio_init+0x8e>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:68
+		this_gpio->gpio_config[index].pin = 0x01 << index;
+ 476:	fec42783          	lw	a5,-20(s0)
+ 47a:	4705                	li	a4,1
+ 47c:	00f717b3          	sll	a5,a4,a5
+ 480:	86be                	mv	a3,a5
+ 482:	fdc42703          	lw	a4,-36(s0)
+ 486:	fec42783          	lw	a5,-20(s0)
+ 48a:	078e                	slli	a5,a5,0x3
+ 48c:	97ba                	add	a5,a5,a4
+ 48e:	c794                	sw	a3,8(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:69
+		if (gpio_dirs & (0x01 << index)) {
+ 490:	fec42783          	lw	a5,-20(s0)
+ 494:	4705                	li	a4,1
+ 496:	00f717b3          	sll	a5,a4,a5
+ 49a:	873e                	mv	a4,a5
+ 49c:	fd042783          	lw	a5,-48(s0)
+ 4a0:	8ff9                	and	a5,a5,a4
+ 4a2:	cb91                	beqz	a5,4b6 <gpio_init+0x74>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:70
+			this_gpio->gpio_config[index].direction =
+ 4a4:	fdc42703          	lw	a4,-36(s0)
+ 4a8:	fec42783          	lw	a5,-20(s0)
+ 4ac:	078e                	slli	a5,a5,0x3
+ 4ae:	97ba                	add	a5,a5,a4
+ 4b0:	4705                	li	a4,1
+ 4b2:	c7d8                	sw	a4,12(a5)
+ 4b4:	a809                	j	4c6 <gpio_init+0x84>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:73
+			    GPIO_OUTPUT;
+		} else {
+			this_gpio->gpio_config[index].direction =
+ 4b6:	fdc42703          	lw	a4,-36(s0)
+ 4ba:	fec42783          	lw	a5,-20(s0)
+ 4be:	078e                	slli	a5,a5,0x3
+ 4c0:	97ba                	add	a5,a5,a4
+ 4c2:	0007a623          	sw	zero,12(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:67 (discriminator 2)
+	for (index = 0; index < lines_num; index++) {
+ 4c6:	fec42783          	lw	a5,-20(s0)
+ 4ca:	0785                	addi	a5,a5,1
+ 4cc:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:67 (discriminator 1)
+ 4d0:	fec42703          	lw	a4,-20(s0)
+ 4d4:	fd442783          	lw	a5,-44(s0)
+ 4d8:	f8f76fe3          	bltu	a4,a5,476 <gpio_init+0x34>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:77
+			    GPIO_INPUT;
+		}
+	}
+	return 0;
+ 4dc:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:78
+}
+ 4de:	853e                	mv	a0,a5
+ 4e0:	5432                	lw	s0,44(sp)
+ 4e2:	6145                	addi	sp,sp,48
+ 4e4:	8082                	ret
+
+000004e6 <gpio_output_write>:
+gpio_output_write():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:94
+	return 0;
+}
+
+unsigned char gpio_output_write(struct gpio_instance *this_gpio,
+				unsigned int index, unsigned int value)
+{
+ 4e6:	1101                	addi	sp,sp,-32
+ 4e8:	ce06                	sw	ra,28(sp)
+ 4ea:	cc22                	sw	s0,24(sp)
+ 4ec:	1000                	addi	s0,sp,32
+ 4ee:	fea42623          	sw	a0,-20(s0)
+ 4f2:	feb42423          	sw	a1,-24(s0)
+ 4f6:	fec42223          	sw	a2,-28(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:95
+	if (NULL == this_gpio) {
+ 4fa:	fec42783          	lw	a5,-20(s0)
+ 4fe:	e399                	bnez	a5,504 <gpio_output_write+0x1e>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:96
+		return 1;
+ 500:	4785                	li	a5,1
+ 502:	a82d                	j	53c <gpio_output_write+0x56>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:98
+	}
+	if (this_gpio->gpio_config[index].direction == GPIO_OUTPUT) {
+ 504:	fec42703          	lw	a4,-20(s0)
+ 508:	fe842783          	lw	a5,-24(s0)
+ 50c:	078e                	slli	a5,a5,0x3
+ 50e:	97ba                	add	a5,a5,a4
+ 510:	47d8                	lw	a4,12(a5)
+ 512:	4785                	li	a5,1
+ 514:	02f71363          	bne	a4,a5,53a <gpio_output_write+0x54>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:100
+
+		reg_32b_modify(this_gpio->base_address | GPIO_WR_DATA,
+ 518:	fec42783          	lw	a5,-20(s0)
+ 51c:	43dc                	lw	a5,4(a5)
+ 51e:	0047e693          	ori	a3,a5,4
+ 522:	fec42703          	lw	a4,-20(s0)
+ 526:	fe842783          	lw	a5,-24(s0)
+ 52a:	078e                	slli	a5,a5,0x3
+ 52c:	97ba                	add	a5,a5,a4
+ 52e:	479c                	lw	a5,8(a5)
+ 530:	fe442603          	lw	a2,-28(s0)
+ 534:	85be                	mv	a1,a5
+ 536:	8536                	mv	a0,a3
+ 538:	35d1                	jal	3fc <reg_32b_modify>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:103
+			       this_gpio->gpio_config[index].pin, value);
+	}
+	return 0;
+ 53a:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/bsp/driver/gpio/gpio.c:104
+}
+ 53c:	853e                	mv	a0,a5
+ 53e:	40f2                	lw	ra,28(sp)
+ 540:	4462                	lw	s0,24(sp)
+ 542:	6105                	addi	sp,sp,32
+ 544:	8082                	ret
+
+00000546 <lscc_uart_putc>:
+lscc_uart_putc():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:68
+#elif (defined LOCAL_UART_INST_BASE_ADDR)
+struct local_uart_instance local_uart_core;
+#endif
+
+static int lscc_uart_putc(char c, FILE *file)
+{
+ 546:	7179                	addi	sp,sp,-48
+ 548:	d606                	sw	ra,44(sp)
+ 54a:	d422                	sw	s0,40(sp)
+ 54c:	1800                	addi	s0,sp,48
+ 54e:	87aa                	mv	a5,a0
+ 550:	fcb42c23          	sw	a1,-40(s0)
+ 554:	fcf40fa3          	sb	a5,-33(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:70
+#ifdef LSCC_STDIO_UART_APB
+		int ret = EOF;
+ 558:	57fd                	li	a5,-1
+ 55a:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:72
+#if (defined UART_INST_BASE_ADDR)
+		ret = uart_putc(&uart_core_uart, c);
+ 55e:	fdf44783          	lbu	a5,-33(s0)
+ 562:	85be                	mv	a1,a5
+ 564:	96818513          	addi	a0,gp,-1688 # f40 <uart_core_uart>
+ 568:	3e4d                	jal	11a <uart_putc>
+ 56a:	87aa                	mv	a5,a0
+ 56c:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:73
+		if (c == '\n' && ret == 0)
+ 570:	fdf40703          	lb	a4,-33(s0)
+ 574:	47a9                	li	a5,10
+ 576:	00f71c63          	bne	a4,a5,58e <lscc_uart_putc+0x48>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:73 (discriminator 1)
+ 57a:	fec42783          	lw	a5,-20(s0)
+ 57e:	eb81                	bnez	a5,58e <lscc_uart_putc+0x48>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:74
+			ret = uart_putc(&uart_core_uart, '\r');
+ 580:	45b5                	li	a1,13
+ 582:	96818513          	addi	a0,gp,-1688 # f40 <uart_core_uart>
+ 586:	3e51                	jal	11a <uart_putc>
+ 588:	87aa                	mv	a5,a0
+ 58a:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:80
+#elif (defined LOCAL_UART_INST_BASE_ADDR)
+		ret = local_uart_putc(&local_uart_core, c);
+		if (c == '\n' && ret == 0)
+			ret = local_uart_putc(&local_uart_core, '\r');
+#endif
+		return ret;
+ 58e:	fec42783          	lw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:84
+#else
+		return EOF;
+#endif
+}
+ 592:	853e                	mv	a0,a5
+ 594:	50b2                	lw	ra,44(sp)
+ 596:	5422                	lw	s0,40(sp)
+ 598:	6145                	addi	sp,sp,48
+ 59a:	8082                	ret
+
+0000059c <lscc_uart_getc>:
+lscc_uart_getc():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:88
+
+
+static int lscc_uart_getc(FILE *file)
+{
+ 59c:	1101                	addi	sp,sp,-32
+ 59e:	ce22                	sw	s0,28(sp)
+ 5a0:	1000                	addi	s0,sp,32
+ 5a2:	fea42623          	sw	a0,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:90
+	(void) file;
+	return EOF;
+ 5a6:	57fd                	li	a5,-1
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:91
+}
+ 5a8:	853e                	mv	a0,a5
+ 5aa:	4472                	lw	s0,28(sp)
+ 5ac:	6105                	addi	sp,sp,32
+ 5ae:	8082                	ret
+
+000005b0 <lscc_uart_flush>:
+lscc_uart_flush():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:95
+
+
+static int lscc_uart_flush(FILE *file)
+{
+ 5b0:	1101                	addi	sp,sp,-32
+ 5b2:	ce22                	sw	s0,28(sp)
+ 5b4:	1000                	addi	s0,sp,32
+ 5b6:	fea42623          	sw	a0,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:97
+	(void) file;
+	return 0;
+ 5ba:	4781                	li	a5,0
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:98
+}
+ 5bc:	853e                	mv	a0,a5
+ 5be:	4472                	lw	s0,28(sp)
+ 5c0:	6105                	addi	sp,sp,32
+ 5c2:	8082                	ret
+
+000005c4 <bsp_init>:
+bsp_init():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:102
+
+
+static void bsp_init(void)
+{
+ 5c4:	1141                	addi	sp,sp,-16
+ 5c6:	c606                	sw	ra,12(sp)
+ 5c8:	c422                	sw	s0,8(sp)
+ 5ca:	0800                	addi	s0,sp,16
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:105
+#ifdef GPIO_INST_BASE_ADDR
+	//initialize GPIO
+	gpio_inst.instance_name = GPIO_INST_NAME;
+ 5cc:	6785                	lui	a5,0x1
+ 5ce:	e3878793          	addi	a5,a5,-456 # e38 <gpio_inst>
+ 5d2:	6705                	lui	a4,0x1
+ 5d4:	d8870713          	addi	a4,a4,-632 # d88 <__iob+0xc>
+ 5d8:	c398                	sw	a4,0(a5)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:106
+	gpio_init(&gpio_inst, GPIO_INST_BASE_ADDR, GPIO_INST_LINES_NUM, GPIO_INST_GPIO_DIRS);
+ 5da:	0ff00693          	li	a3,255
+ 5de:	4621                	li	a2,8
+ 5e0:	6591                	lui	a1,0x4
+ 5e2:	6785                	lui	a5,0x1
+ 5e4:	e3878513          	addi	a0,a5,-456 # e38 <gpio_inst>
+ 5e8:	3da9                	jal	442 <gpio_init>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:119
+	uart_core_uart.intrAvail = true;
+	//pic_isr_register(UART0_INST_IRQ, uart_isr, (void *)&uart_core_uart);
+#endif
+
+	//initialize UART
+	uart_init(&uart_core_uart, UART_INST_BASE_ADDR, UART_INST_SYS_CLK * 1000000, UART_INST_BAUD_RATE, 1, 8);
+ 5ea:	47a1                	li	a5,8
+ 5ec:	4705                	li	a4,1
+ 5ee:	66f1                	lui	a3,0x1c
+ 5f0:	20068693          	addi	a3,a3,512 # 1c200 <_stack_start+0x1a860>
+ 5f4:	0243d637          	lui	a2,0x243d
+ 5f8:	58060613          	addi	a2,a2,1408 # 243d580 <_stack_start+0x243bbe0>
+ 5fc:	6591                	lui	a1,0x4
+ 5fe:	40058593          	addi	a1,a1,1024 # 4400 <_stack_start+0x2a60>
+ 602:	96818513          	addi	a0,gp,-1688 # f40 <uart_core_uart>
+ 606:	3469                	jal	90 <uart_init>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:123
+#elif (defined LOCAL_UART_INST_BASE_ADDR)
+    local_uart_init(&local_uart_core, LOCAL_UART_INST_BASE_ADDR, CPU0_INST_SYS_CLOCK_FREQ * 1000000, CPU0_INST_BAUD_RATE, 1, 8);
+#endif
+	iob_init(lscc_uart_putc, lscc_uart_getc, lscc_uart_flush);
+ 608:	5b000613          	li	a2,1456
+ 60c:	59c00593          	li	a1,1436
+ 610:	54600513          	li	a0,1350
+ 614:	394d                	jal	2c6 <iob_init>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:124
+	trap_init();
+ 616:	20bd                	jal	684 <trap_init>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:125
+}
+ 618:	0001                	nop
+ 61a:	40b2                	lw	ra,12(sp)
+ 61c:	4422                	lw	s0,8(sp)
+ 61e:	0141                	addi	sp,sp,16
+ 620:	8082                	ret
+
+00000622 <main>:
+main():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:128
+
+
+int main(void) {
+ 622:	1141                	addi	sp,sp,-16
+ 624:	c606                	sw	ra,12(sp)
+ 626:	c422                	sw	s0,8(sp)
+ 628:	0800                	addi	s0,sp,16
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:132
+	static uint8_t idx = 0;
+	static uint8_t pin_state = 0xFF;
+
+	bsp_init();
+ 62a:	3f69                	jal	5c4 <bsp_init>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:134
+
+	printf("Started!\nHello RISC-V world!\n"); 
+ 62c:	6785                	lui	a5,0x1
+ 62e:	d9478513          	addi	a0,a5,-620 # d94 <__iob+0x18>
+ 632:	22ad                	jal	79c <puts>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:138
+
+	while (true) {
+#ifdef GPIO_INST_BASE_ADDR
+		gpio_output_write(&gpio_inst, idx, pin_state);
+ 634:	8141c783          	lbu	a5,-2028(gp) # dec <idx.1>
+ 638:	873e                	mv	a4,a5
+ 63a:	6785                	lui	a5,0x1
+ 63c:	dd87c783          	lbu	a5,-552(a5) # dd8 <pin_state.0>
+ 640:	863e                	mv	a2,a5
+ 642:	85ba                	mv	a1,a4
+ 644:	6785                	lui	a5,0x1
+ 646:	e3878513          	addi	a0,a5,-456 # e38 <gpio_inst>
+ 64a:	3d71                	jal	4e6 <gpio_output_write>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:143
+#else
+		printf("0x%02X\n",(pin_state ^ (1<<idx)));
+#endif
+
+		if (++idx == LED_COUNT) {
+ 64c:	8141c783          	lbu	a5,-2028(gp) # dec <idx.1>
+ 650:	0785                	addi	a5,a5,1
+ 652:	0ff7f713          	zext.b	a4,a5
+ 656:	80e18a23          	sb	a4,-2028(gp) # dec <idx.1>
+ 65a:	8141c703          	lbu	a4,-2028(gp) # dec <idx.1>
+ 65e:	47a1                	li	a5,8
+ 660:	00f71e63          	bne	a4,a5,67c <main+0x5a>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:144
+			idx = 0;
+ 664:	80018a23          	sb	zero,-2028(gp) # dec <idx.1>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:145
+			pin_state = ~pin_state;
+ 668:	6785                	lui	a5,0x1
+ 66a:	dd87c783          	lbu	a5,-552(a5) # dd8 <pin_state.0>
+ 66e:	fff7c793          	not	a5,a5
+ 672:	0ff7f713          	zext.b	a4,a5
+ 676:	6785                	lui	a5,0x1
+ 678:	dce78c23          	sb	a4,-552(a5) # dd8 <pin_state.0>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:151
+		}
+
+		if (RTL_SIM) {
+			delay(1);
+		} else {
+			delay(500);
+ 67c:	1f400513          	li	a0,500
+ 680:	28a9                	jal	6da <delay>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/main.c:138
+		gpio_output_write(&gpio_inst, idx, pin_state);
+ 682:	bf4d                	j	634 <main+0x12>
+
+00000684 <trap_init>:
+trap_init():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:46
+
+#include "utils.h"
+#include "sys_platform.h"
+
+void __attribute__ ((weak)) trap_init()
+{
+ 684:	1141                	addi	sp,sp,-16
+ 686:	c622                	sw	s0,12(sp)
+ 688:	0800                	addi	s0,sp,16
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:48
+
+}
+ 68a:	0001                	nop
+ 68c:	4432                	lw	s0,12(sp)
+ 68e:	0141                	addi	sp,sp,16
+ 690:	8082                	ret
+
+00000692 <delayCycle>:
+delayCycle():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:70
+}
+
+#else
+
+void delayCycle(uint32_t cycle)
+{
+ 692:	7179                	addi	sp,sp,-48
+ 694:	d622                	sw	s0,44(sp)
+ 696:	1800                	addi	s0,sp,48
+ 698:	fca42e23          	sw	a0,-36(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:73
+    if (!RTL_SIM)
+    {
+    	volatile uint32_t count = cycle;
+ 69c:	fdc42783          	lw	a5,-36(s0)
+ 6a0:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:74
+    	count *= CYCLE_HZ;
+ 6a4:	fec42703          	lw	a4,-20(s0)
+ 6a8:	87ba                	mv	a5,a4
+ 6aa:	079a                	slli	a5,a5,0x6
+ 6ac:	97ba                	add	a5,a5,a4
+ 6ae:	078e                	slli	a5,a5,0x3
+ 6b0:	97ba                	add	a5,a5,a4
+ 6b2:	078a                	slli	a5,a5,0x2
+ 6b4:	8f99                	sub	a5,a5,a4
+ 6b6:	078a                	slli	a5,a5,0x2
+ 6b8:	97ba                	add	a5,a5,a4
+ 6ba:	fef42623          	sw	a5,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:76
+
+    	while(count--)
+ 6be:	a011                	j	6c2 <delayCycle+0x30>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:77
+    		continue;
+ 6c0:	0001                	nop
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:76
+    	while(count--)
+ 6c2:	fec42783          	lw	a5,-20(s0)
+ 6c6:	fff78713          	addi	a4,a5,-1
+ 6ca:	fee42623          	sw	a4,-20(s0)
+ 6ce:	fbed                	bnez	a5,6c0 <delayCycle+0x2e>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:83
+    } else
+    {
+    	uint32_t count_sim = 10;
+    	while (count_sim--);
+    }
+}
+ 6d0:	0001                	nop
+ 6d2:	0001                	nop
+ 6d4:	5432                	lw	s0,44(sp)
+ 6d6:	6145                	addi	sp,sp,48
+ 6d8:	8082                	ret
+
+000006da <delay>:
+delay():
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:87
+
+#endif
+void delay(uint32_t count)
+{
+ 6da:	1101                	addi	sp,sp,-32
+ 6dc:	ce06                	sw	ra,28(sp)
+ 6de:	cc22                	sw	s0,24(sp)
+ 6e0:	1000                	addi	s0,sp,32
+ 6e2:	fea42623          	sw	a0,-20(s0)
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:91
+#ifdef CPU_M_FREQUENCY
+	delayMS(count);
+#else
+	delayCycle(count);
+ 6e6:	fec42503          	lw	a0,-20(s0)
+ 6ea:	3765                	jal	692 <delayCycle>
+C:\ECAD\FPGA_Designs\lattice_propel_workspace\riscv_mc_helloworld\Debug/../src/utils.c:93
+#endif
+}
+ 6ec:	0001                	nop
+ 6ee:	40f2                	lw	ra,28(sp)
+ 6f0:	4462                	lw	s0,24(sp)
+ 6f2:	6105                	addi	sp,sp,32
+ 6f4:	8082                	ret
+	...
+
+000006f8 <__divsi3>:
+__divsi3():
+ 6f8:	02054e63          	bltz	a0,734 <__umodsi3+0x8>
+ 6fc:	0405c363          	bltz	a1,742 <__umodsi3+0x16>
+
+00000700 <__udivsi3>:
+ 700:	862e                	mv	a2,a1
+ 702:	85aa                	mv	a1,a0
+ 704:	557d                	li	a0,-1
+ 706:	c215                	beqz	a2,72a <__udivsi3+0x2a>
+ 708:	4685                	li	a3,1
+ 70a:	00b67863          	bgeu	a2,a1,71a <__udivsi3+0x1a>
+ 70e:	00c05663          	blez	a2,71a <__udivsi3+0x1a>
+ 712:	0606                	slli	a2,a2,0x1
+ 714:	0686                	slli	a3,a3,0x1
+ 716:	feb66ce3          	bltu	a2,a1,70e <__udivsi3+0xe>
+ 71a:	4501                	li	a0,0
+ 71c:	00c5e463          	bltu	a1,a2,724 <__udivsi3+0x24>
+ 720:	8d91                	sub	a1,a1,a2
+ 722:	8d55                	or	a0,a0,a3
+ 724:	8285                	srli	a3,a3,0x1
+ 726:	8205                	srli	a2,a2,0x1
+ 728:	faf5                	bnez	a3,71c <__udivsi3+0x1c>
+ 72a:	8082                	ret
+
+0000072c <__umodsi3>:
+ 72c:	8286                	mv	t0,ra
+ 72e:	3fc9                	jal	700 <__udivsi3>
+ 730:	852e                	mv	a0,a1
+ 732:	8282                	jr	t0
+ 734:	40a00533          	neg	a0,a0
+ 738:	00b04763          	bgtz	a1,746 <__umodsi3+0x1a>
+ 73c:	40b005b3          	neg	a1,a1
+ 740:	b7c1                	j	700 <__udivsi3>
+ 742:	40b005b3          	neg	a1,a1
+ 746:	8286                	mv	t0,ra
+ 748:	3f65                	jal	700 <__udivsi3>
+ 74a:	40a00533          	neg	a0,a0
+ 74e:	8282                	jr	t0
+
+00000750 <__modsi3>:
+__modsi3():
+ 750:	8286                	mv	t0,ra
+ 752:	0005c763          	bltz	a1,760 <__modsi3+0x10>
+ 756:	00054963          	bltz	a0,768 <__modsi3+0x18>
+ 75a:	375d                	jal	700 <__udivsi3>
+ 75c:	852e                	mv	a0,a1
+ 75e:	8282                	jr	t0
+ 760:	40b005b3          	neg	a1,a1
+ 764:	fe055be3          	bgez	a0,75a <__modsi3+0xa>
+ 768:	40a00533          	neg	a0,a0
+ 76c:	3f51                	jal	700 <__udivsi3>
+ 76e:	40b00533          	neg	a0,a1
+ 772:	8282                	jr	t0
+	...
+
+00000776 <printf>:
+printf():
+ 776:	7139                	addi	sp,sp,-64
+ 778:	da3e                	sw	a5,52(sp)
+ 77a:	6785                	lui	a5,0x1
+ 77c:	d22e                	sw	a1,36(sp)
+ 77e:	85aa                	mv	a1,a0
+ 780:	d807a503          	lw	a0,-640(a5) # d80 <__iob+0x4>
+ 784:	d432                	sw	a2,40(sp)
+ 786:	1050                	addi	a2,sp,36
+ 788:	ce06                	sw	ra,28(sp)
+ 78a:	d636                	sw	a3,44(sp)
+ 78c:	d83a                	sw	a4,48(sp)
+ 78e:	dc42                	sw	a6,56(sp)
+ 790:	de46                	sw	a7,60(sp)
+ 792:	c632                	sw	a2,12(sp)
+ 794:	2841                	jal	824 <vfprintf>
+ 796:	40f2                	lw	ra,28(sp)
+ 798:	6121                	addi	sp,sp,64
+ 79a:	8082                	ret
+
+0000079c <puts>:
+puts():
+ 79c:	57a002ef          	jal	t0,d16 <__riscv_save_0>
+ 7a0:	6785                	lui	a5,0x1
+ 7a2:	d807a583          	lw	a1,-640(a5) # d80 <__iob+0x4>
+ 7a6:	1141                	addi	sp,sp,-16
+ 7a8:	842a                	mv	s0,a0
+ 7aa:	0045c783          	lbu	a5,4(a1)
+ 7ae:	4481                	li	s1,0
+ 7b0:	8b89                	andi	a5,a5,2
+ 7b2:	eb91                	bnez	a5,7c6 <puts+0x2a>
+ 7b4:	54fd                	li	s1,-1
+ 7b6:	8526                	mv	a0,s1
+ 7b8:	0141                	addi	sp,sp,16
+ 7ba:	a341                	j	d3a <__riscv_restore_0>
+ 7bc:	c62e                	sw	a1,12(sp)
+ 7be:	9782                	jalr	a5
+ 7c0:	45b2                	lw	a1,12(sp)
+ 7c2:	c111                	beqz	a0,7c6 <puts+0x2a>
+ 7c4:	54fd                	li	s1,-1
+ 7c6:	00044503          	lbu	a0,0(s0)
+ 7ca:	0405                	addi	s0,s0,1
+ 7cc:	459c                	lw	a5,8(a1)
+ 7ce:	f57d                	bnez	a0,7bc <puts+0x20>
+ 7d0:	4529                	li	a0,10
+ 7d2:	9782                	jalr	a5
+ 7d4:	d16d                	beqz	a0,7b6 <puts+0x1a>
+ 7d6:	bff9                	j	7b4 <puts+0x18>
+
+000007d8 <__ultoa_invert>:
+__ultoa_invert():
+ 7d8:	524002ef          	jal	t0,cfc <__riscv_save_4>
+ 7dc:	20067793          	andi	a5,a2,512
+ 7e0:	892a                	mv	s2,a0
+ 7e2:	842e                	mv	s0,a1
+ 7e4:	84b2                	mv	s1,a2
+ 7e6:	02700a13          	li	s4,39
+ 7ea:	c781                	beqz	a5,7f2 <__ultoa_invert+0x1a>
+ 7ec:	dff67493          	andi	s1,a2,-513
+ 7f0:	4a1d                	li	s4,7
+ 7f2:	4aa5                	li	s5,9
+ 7f4:	85a6                	mv	a1,s1
+ 7f6:	854a                	mv	a0,s2
+ 7f8:	3721                	jal	700 <__udivsi3>
+ 7fa:	89ca                	mv	s3,s2
+ 7fc:	85a6                	mv	a1,s1
+ 7fe:	892a                	mv	s2,a0
+ 800:	854e                	mv	a0,s3
+ 802:	372d                	jal	72c <__umodsi3>
+ 804:	0ff57793          	zext.b	a5,a0
+ 808:	00faf563          	bgeu	s5,a5,812 <__ultoa_invert+0x3a>
+ 80c:	97d2                	add	a5,a5,s4
+ 80e:	0ff7f793          	zext.b	a5,a5
+ 812:	0405                	addi	s0,s0,1
+ 814:	03078793          	addi	a5,a5,48
+ 818:	fef40fa3          	sb	a5,-1(s0)
+ 81c:	fc99fce3          	bgeu	s3,s1,7f4 <__ultoa_invert+0x1c>
+ 820:	8522                	mv	a0,s0
+ 822:	a339                	j	d30 <__riscv_restore_4>
+
+00000824 <vfprintf>:
+vfprintf():
+ 824:	4c2002ef          	jal	t0,ce6 <__riscv_save_12>
+ 828:	00454783          	lbu	a5,4(a0)
+ 82c:	1101                	addi	sp,sp,-32
+ 82e:	597d                	li	s2,-1
+ 830:	8b89                	andi	a5,a5,2
+ 832:	46078b63          	beqz	a5,ca8 <_STACK_SIZE+0x2a8>
+ 836:	6cc1                	lui	s9,0x10
+ 838:	8aaa                	mv	s5,a0
+ 83a:	8a32                	mv	s4,a2
+ 83c:	4901                	li	s2,0
+ 83e:	01410c13          	addi	s8,sp,20
+ 842:	6d05                	lui	s10,0x1
+ 844:	1cfd                	addi	s9,s9,-1
+ 846:	0005c483          	lbu	s1,0(a1)
+ 84a:	44048f63          	beqz	s1,ca8 <_STACK_SIZE+0x2a8>
+ 84e:	02500793          	li	a5,37
+ 852:	00158b93          	addi	s7,a1,1
+ 856:	00f49863          	bne	s1,a5,866 <vfprintf+0x42>
+ 85a:	0015c483          	lbu	s1,1(a1)
+ 85e:	00258b93          	addi	s7,a1,2
+ 862:	00f49763          	bne	s1,a5,870 <vfprintf+0x4c>
+ 866:	0905                	addi	s2,s2,1
+ 868:	85d6                	mv	a1,s5
+ 86a:	8526                	mv	a0,s1
+ 86c:	29a9                	jal	cc6 <fputc>
+ 86e:	a2ad                	j	9d8 <vfprintf+0x1b4>
+ 870:	4981                	li	s3,0
+ 872:	4b01                	li	s6,0
+ 874:	4401                	li	s0,0
+ 876:	46fd                	li	a3,31
+ 878:	06c00613          	li	a2,108
+ 87c:	06800593          	li	a1,104
+ 880:	06a00513          	li	a0,106
+ 884:	07400813          	li	a6,116
+ 888:	48a5                	li	a7,9
+ 88a:	02a00313          	li	t1,42
+ 88e:	02e00e13          	li	t3,46
+ 892:	07f00e93          	li	t4,127
+ 896:	02b00713          	li	a4,43
+ 89a:	02d00f13          	li	t5,45
+ 89e:	03000f93          	li	t6,48
+ 8a2:	02000293          	li	t0,32
+ 8a6:	02300393          	li	t2,35
+ 8aa:	0486ef63          	bltu	a3,s0,908 <vfprintf+0xe4>
+ 8ae:	04e48263          	beq	s1,a4,8f2 <vfprintf+0xce>
+ 8b2:	02976563          	bltu	a4,s1,8dc <vfprintf+0xb8>
+ 8b6:	04548063          	beq	s1,t0,8f6 <vfprintf+0xd2>
+ 8ba:	04748463          	beq	s1,t2,902 <vfprintf+0xde>
+ 8be:	fd048793          	addi	a5,s1,-48
+ 8c2:	0ff7f793          	zext.b	a5,a5
+ 8c6:	06f8e063          	bltu	a7,a5,926 <vfprintf+0x102>
+ 8ca:	04047493          	andi	s1,s0,64
+ 8ce:	c4a1                	beqz	s1,916 <vfprintf+0xf2>
+ 8d0:	00299493          	slli	s1,s3,0x2
+ 8d4:	99a6                	add	s3,s3,s1
+ 8d6:	0986                	slli	s3,s3,0x1
+ 8d8:	99be                	add	s3,s3,a5
+ 8da:	a039                	j	8e8 <vfprintf+0xc4>
+ 8dc:	03e48063          	beq	s1,t5,8fc <vfprintf+0xd8>
+ 8e0:	fdf49fe3          	bne	s1,t6,8be <vfprintf+0x9a>
+ 8e4:	00146413          	ori	s0,s0,1
+ 8e8:	000bc483          	lbu	s1,0(s7)
+ 8ec:	0b85                	addi	s7,s7,1
+ 8ee:	fcd5                	bnez	s1,8aa <vfprintf+0x86>
+ 8f0:	a079                	j	97e <vfprintf+0x15a>
+ 8f2:	00246413          	ori	s0,s0,2
+ 8f6:	00446413          	ori	s0,s0,4
+ 8fa:	b7fd                	j	8e8 <vfprintf+0xc4>
+ 8fc:	00846413          	ori	s0,s0,8
+ 900:	b7e5                	j	8e8 <vfprintf+0xc4>
+ 902:	01046413          	ori	s0,s0,16
+ 906:	b7cd                	j	8e8 <vfprintf+0xc4>
+ 908:	fa8efbe3          	bgeu	t4,s0,8be <vfprintf+0x9a>
+ 90c:	04c49963          	bne	s1,a2,95e <vfprintf+0x13a>
+ 910:	08046413          	ori	s0,s0,128
+ 914:	bfd1                	j	8e8 <vfprintf+0xc4>
+ 916:	002b1493          	slli	s1,s6,0x2
+ 91a:	9b26                	add	s6,s6,s1
+ 91c:	0b06                	slli	s6,s6,0x1
+ 91e:	9b3e                	add	s6,s6,a5
+ 920:	02046413          	ori	s0,s0,32
+ 924:	b7d1                	j	8e8 <vfprintf+0xc4>
+ 926:	02649363          	bne	s1,t1,94c <vfprintf+0x128>
+ 92a:	04047493          	andi	s1,s0,64
+ 92e:	000a2783          	lw	a5,0(s4)
+ 932:	0a11                	addi	s4,s4,4
+ 934:	e4c5                	bnez	s1,9dc <vfprintf+0x1b8>
+ 936:	0007c663          	bltz	a5,942 <vfprintf+0x11e>
+ 93a:	02046413          	ori	s0,s0,32
+ 93e:	8b3e                	mv	s6,a5
+ 940:	b765                	j	8e8 <vfprintf+0xc4>
+ 942:	40f00b33          	neg	s6,a5
+ 946:	02846413          	ori	s0,s0,40
+ 94a:	bf79                	j	8e8 <vfprintf+0xc4>
+ 94c:	fdc490e3          	bne	s1,t3,90c <vfprintf+0xe8>
+ 950:	04047793          	andi	a5,s0,64
+ 954:	34079a63          	bnez	a5,ca8 <_STACK_SIZE+0x2a8>
+ 958:	04046413          	ori	s0,s0,64
+ 95c:	b771                	j	8e8 <vfprintf+0xc4>
+ 95e:	00b49a63          	bne	s1,a1,972 <vfprintf+0x14e>
+ 962:	10047793          	andi	a5,s0,256
+ 966:	c399                	beqz	a5,96c <vfprintf+0x148>
+ 968:	20046413          	ori	s0,s0,512
+ 96c:	10046413          	ori	s0,s0,256
+ 970:	bfa5                	j	8e8 <vfprintf+0xc4>
+ 972:	0ef4f793          	andi	a5,s1,239
+ 976:	f6a789e3          	beq	a5,a0,8e8 <vfprintf+0xc4>
+ 97a:	f70487e3          	beq	s1,a6,8e8 <vfprintf+0xc4>
+ 97e:	0009d763          	bgez	s3,98c <vfprintf+0x168>
+ 982:	fbf47413          	andi	s0,s0,-65
+ 986:	0442                	slli	s0,s0,0x10
+ 988:	8041                	srli	s0,s0,0x10
+ 98a:	4981                	li	s3,0
+ 98c:	0204e793          	ori	a5,s1,32
+ 990:	f9b78713          	addi	a4,a5,-101
+ 994:	0ff77713          	zext.b	a4,a4
+ 998:	4689                	li	a3,2
+ 99a:	00e6f663          	bgeu	a3,a4,9a6 <vfprintf+0x182>
+ 99e:	06100713          	li	a4,97
+ 9a2:	02e79f63          	bne	a5,a4,9e0 <vfprintf+0x1bc>
+ 9a6:	007a0493          	addi	s1,s4,7
+ 9aa:	98e1                	andi	s1,s1,-8
+ 9ac:	6785                	lui	a5,0x1
+ 9ae:	04a1                	addi	s1,s1,8
+ 9b0:	4a1d                	li	s4,7
+ 9b2:	dbc78d93          	addi	s11,a5,-580 # dbc <__iob+0x40>
+ 9b6:	8821                	andi	s0,s0,8
+ 9b8:	c051                	beqz	s0,a3c <_STACK_SIZE+0x3c>
+ 9ba:	414b0b33          	sub	s6,s6,s4
+ 9be:	014d8433          	add	s0,s11,s4
+ 9c2:	088d9063          	bne	s11,s0,a42 <_STACK_SIZE+0x42>
+ 9c6:	9952                	add	s2,s2,s4
+ 9c8:	845a                	mv	s0,s6
+ 9ca:	2c804963          	bgtz	s0,c9c <_STACK_SIZE+0x29c>
+ 9ce:	000b5363          	bgez	s6,9d4 <vfprintf+0x1b0>
+ 9d2:	4b01                	li	s6,0
+ 9d4:	995a                	add	s2,s2,s6
+ 9d6:	8a26                	mv	s4,s1
+ 9d8:	85de                	mv	a1,s7
+ 9da:	b5b5                	j	846 <vfprintf+0x22>
+ 9dc:	89be                	mv	s3,a5
+ 9de:	b729                	j	8e8 <vfprintf+0xc4>
+ 9e0:	06300713          	li	a4,99
+ 9e4:	00e49c63          	bne	s1,a4,9fc <vfprintf+0x1d8>
+ 9e8:	000a2783          	lw	a5,0(s4)
+ 9ec:	004a0493          	addi	s1,s4,4
+ 9f0:	01410d93          	addi	s11,sp,20
+ 9f4:	00f10a23          	sb	a5,20(sp)
+ 9f8:	4a05                	li	s4,1
+ 9fa:	bf75                	j	9b6 <vfprintf+0x192>
+ 9fc:	07300713          	li	a4,115
+ a00:	04e49763          	bne	s1,a4,a4e <_STACK_SIZE+0x4e>
+ a04:	000a2d83          	lw	s11,0(s4)
+ a08:	004a0493          	addi	s1,s4,4
+ a0c:	000d9563          	bnez	s11,a16 <_STACK_SIZE+0x16>
+ a10:	6785                	lui	a5,0x1
+ a12:	db478d93          	addi	s11,a5,-588 # db4 <__iob+0x38>
+ a16:	04047713          	andi	a4,s0,64
+ a1a:	55fd                	li	a1,-1
+ a1c:	c311                	beqz	a4,a20 <_STACK_SIZE+0x20>
+ a1e:	85ce                	mv	a1,s3
+ a20:	856e                	mv	a0,s11
+ a22:	2471                	jal	cae <strnlen>
+ a24:	8a2a                	mv	s4,a0
+ a26:	bf41                	j	9b6 <vfprintf+0x192>
+ a28:	85d6                	mv	a1,s5
+ a2a:	02000513          	li	a0,32
+ a2e:	2c61                	jal	cc6 <fputc>
+ a30:	1b7d                	addi	s6,s6,-1
+ a32:	41640933          	sub	s2,s0,s6
+ a36:	ff6a69e3          	bltu	s4,s6,a28 <_STACK_SIZE+0x28>
+ a3a:	b741                	j	9ba <vfprintf+0x196>
+ a3c:	012b0433          	add	s0,s6,s2
+ a40:	bfcd                	j	a32 <_STACK_SIZE+0x32>
+ a42:	000dc503          	lbu	a0,0(s11)
+ a46:	85d6                	mv	a1,s5
+ a48:	0d85                	addi	s11,s11,1
+ a4a:	2cb5                	jal	cc6 <fputc>
+ a4c:	bf9d                	j	9c2 <vfprintf+0x19e>
+ a4e:	06400713          	li	a4,100
+ a52:	00e48663          	beq	s1,a4,a5e <_STACK_SIZE+0x5e>
+ a56:	06900713          	li	a4,105
+ a5a:	04e49e63          	bne	s1,a4,ab6 <_STACK_SIZE+0xb6>
+ a5e:	08047793          	andi	a5,s0,128
+ a62:	000a2503          	lw	a0,0(s4)
+ a66:	004a0493          	addi	s1,s4,4
+ a6a:	cb95                	beqz	a5,a9e <_STACK_SIZE+0x9e>
+ a6c:	00055663          	bgez	a0,a78 <_STACK_SIZE+0x78>
+ a70:	40a00533          	neg	a0,a0
+ a74:	40046413          	ori	s0,s0,1024
+ a78:	fef47713          	andi	a4,s0,-17
+ a7c:	01071d93          	slli	s11,a4,0x10
+ a80:	04047413          	andi	s0,s0,64
+ a84:	010ddd93          	srli	s11,s11,0x10
+ a88:	c409                	beqz	s0,a92 <_STACK_SIZE+0x92>
+ a8a:	00a9ea33          	or	s4,s3,a0
+ a8e:	060a0e63          	beqz	s4,b0a <_STACK_SIZE+0x10a>
+ a92:	4629                	li	a2,10
+ a94:	85e2                	mv	a1,s8
+ a96:	3389                	jal	7d8 <__ultoa_invert>
+ a98:	41850a33          	sub	s4,a0,s8
+ a9c:	a0bd                	j	b0a <_STACK_SIZE+0x10a>
+ a9e:	10047793          	andi	a5,s0,256
+ aa2:	d7e9                	beqz	a5,a6c <_STACK_SIZE+0x6c>
+ aa4:	20047793          	andi	a5,s0,512
+ aa8:	c781                	beqz	a5,ab0 <_STACK_SIZE+0xb0>
+ aaa:	0562                	slli	a0,a0,0x18
+ aac:	8561                	srai	a0,a0,0x18
+ aae:	bf7d                	j	a6c <_STACK_SIZE+0x6c>
+ ab0:	0542                	slli	a0,a0,0x10
+ ab2:	8541                	srai	a0,a0,0x10
+ ab4:	bf65                	j	a6c <_STACK_SIZE+0x6c>
+ ab6:	07500713          	li	a4,117
+ aba:	0ee49c63          	bne	s1,a4,bb2 <_STACK_SIZE+0x1b2>
+ abe:	983d                	andi	s0,s0,-17
+ ac0:	0442                	slli	s0,s0,0x10
+ ac2:	8041                	srli	s0,s0,0x10
+ ac4:	4629                	li	a2,10
+ ac6:	08047793          	andi	a5,s0,128
+ aca:	000a2503          	lw	a0,0(s4)
+ ace:	004a0493          	addi	s1,s4,4
+ ad2:	eb91                	bnez	a5,ae6 <_STACK_SIZE+0xe6>
+ ad4:	10047793          	andi	a5,s0,256
+ ad8:	c799                	beqz	a5,ae6 <_STACK_SIZE+0xe6>
+ ada:	20047793          	andi	a5,s0,512
+ ade:	12078263          	beqz	a5,c02 <_STACK_SIZE+0x202>
+ ae2:	0ff57513          	zext.b	a0,a0
+ ae6:	ff947713          	andi	a4,s0,-7
+ aea:	01071d93          	slli	s11,a4,0x10
+ aee:	04047793          	andi	a5,s0,64
+ af2:	010ddd93          	srli	s11,s11,0x10
+ af6:	dfd9                	beqz	a5,a94 <_STACK_SIZE+0x94>
+ af8:	00a9e7b3          	or	a5,s3,a0
+ afc:	ffc1                	bnez	a5,a94 <_STACK_SIZE+0x94>
+ afe:	9825                	andi	s0,s0,-23
+ b00:	01041d93          	slli	s11,s0,0x10
+ b04:	010ddd93          	srli	s11,s11,0x10
+ b08:	4a01                	li	s4,0
+ b0a:	040df793          	andi	a5,s11,64
+ b0e:	0e078d63          	beqz	a5,c08 <_STACK_SIZE+0x208>
+ b12:	ffedf413          	andi	s0,s11,-2
+ b16:	0442                	slli	s0,s0,0x10
+ b18:	8041                	srli	s0,s0,0x10
+ b1a:	87d2                	mv	a5,s4
+ b1c:	013a5b63          	bge	s4,s3,b32 <_STACK_SIZE+0x132>
+ b20:	6685                	lui	a3,0x1
+ b22:	00ddf6b3          	and	a3,s11,a3
+ b26:	87ce                	mv	a5,s3
+ b28:	e689                	bnez	a3,b32 <_STACK_SIZE+0x132>
+ b2a:	feedf413          	andi	s0,s11,-18
+ b2e:	0442                	slli	s0,s0,0x10
+ b30:	8041                	srli	s0,s0,0x10
+ b32:	01047713          	andi	a4,s0,16
+ b36:	c765                	beqz	a4,c1e <_STACK_SIZE+0x21e>
+ b38:	1018                	addi	a4,sp,32
+ b3a:	9752                	add	a4,a4,s4
+ b3c:	ff374683          	lbu	a3,-13(a4)
+ b40:	03000713          	li	a4,48
+ b44:	0ce69563          	bne	a3,a4,c0e <_STACK_SIZE+0x20e>
+ b48:	983d                	andi	s0,s0,-17
+ b4a:	0442                	slli	s0,s0,0x10
+ b4c:	8041                	srli	s0,s0,0x10
+ b4e:	00847713          	andi	a4,s0,8
+ b52:	ef09                	bnez	a4,b6c <_STACK_SIZE+0x16c>
+ b54:	00147713          	andi	a4,s0,1
+ b58:	0e070a63          	beqz	a4,c4c <_STACK_SIZE+0x24c>
+ b5c:	89d2                	mv	s3,s4
+ b5e:	0167d763          	bge	a5,s6,b6c <_STACK_SIZE+0x16c>
+ b62:	40fb07b3          	sub	a5,s6,a5
+ b66:	014789b3          	add	s3,a5,s4
+ b6a:	87da                	mv	a5,s6
+ b6c:	40fb0b33          	sub	s6,s6,a5
+ b70:	01047793          	andi	a5,s0,16
+ b74:	0e078d63          	beqz	a5,c6e <_STACK_SIZE+0x26e>
+ b78:	85d6                	mv	a1,s5
+ b7a:	03000513          	li	a0,48
+ b7e:	22a1                	jal	cc6 <fputc>
+ b80:	00c45793          	srli	a5,s0,0xc
+ b84:	8b85                	andi	a5,a5,1
+ b86:	e7e9                	bnez	a5,c50 <_STACK_SIZE+0x250>
+ b88:	0905                	addi	s2,s2,1
+ b8a:	844e                	mv	s0,s3
+ b8c:	108a4263          	blt	s4,s0,c90 <_STACK_SIZE+0x290>
+ b90:	4781                	li	a5,0
+ b92:	0149c463          	blt	s3,s4,b9a <_STACK_SIZE+0x19a>
+ b96:	414987b3          	sub	a5,s3,s4
+ b9a:	993e                	add	s2,s2,a5
+ b9c:	8452                	mv	s0,s4
+ b9e:	e20404e3          	beqz	s0,9c6 <vfprintf+0x1a2>
+ ba2:	147d                	addi	s0,s0,-1
+ ba4:	008c07b3          	add	a5,s8,s0
+ ba8:	0007c503          	lbu	a0,0(a5)
+ bac:	85d6                	mv	a1,s5
+ bae:	2a21                	jal	cc6 <fputc>
+ bb0:	b7fd                	j	b9e <_STACK_SIZE+0x19e>
+ bb2:	06f00713          	li	a4,111
+ bb6:	04e48463          	beq	s1,a4,bfe <_STACK_SIZE+0x1fe>
+ bba:	07000713          	li	a4,112
+ bbe:	00e49763          	bne	s1,a4,bcc <_STACK_SIZE+0x1cc>
+ bc2:	010d0793          	addi	a5,s10,16 # 1010 <_bss_end+0x78>
+ bc6:	8c5d                	or	s0,s0,a5
+ bc8:	4641                	li	a2,16
+ bca:	bdf5                	j	ac6 <_STACK_SIZE+0xc6>
+ bcc:	07800713          	li	a4,120
+ bd0:	02e79163          	bne	a5,a4,bf2 <_STACK_SIZE+0x1f2>
+ bd4:	05800793          	li	a5,88
+ bd8:	00f48463          	beq	s1,a5,be0 <_STACK_SIZE+0x1e0>
+ bdc:	6785                	lui	a5,0x1
+ bde:	b7e5                	j	bc6 <_STACK_SIZE+0x1c6>
+ be0:	6789                	lui	a5,0x2
+ be2:	80078793          	addi	a5,a5,-2048 # 1800 <__global_pointer$+0x228>
+ be6:	8c5d                	or	s0,s0,a5
+ be8:	0442                	slli	s0,s0,0x10
+ bea:	8041                	srli	s0,s0,0x10
+ bec:	21000613          	li	a2,528
+ bf0:	bdd9                	j	ac6 <_STACK_SIZE+0xc6>
+ bf2:	85d6                	mv	a1,s5
+ bf4:	02500513          	li	a0,37
+ bf8:	20f9                	jal	cc6 <fputc>
+ bfa:	0909                	addi	s2,s2,2
+ bfc:	b1b5                	j	868 <vfprintf+0x44>
+ bfe:	4621                	li	a2,8
+ c00:	b5d9                	j	ac6 <_STACK_SIZE+0xc6>
+ c02:	01957533          	and	a0,a0,s9
+ c06:	b5c5                	j	ae6 <_STACK_SIZE+0xe6>
+ c08:	87d2                	mv	a5,s4
+ c0a:	846e                	mv	s0,s11
+ c0c:	b71d                	j	b32 <_STACK_SIZE+0x132>
+ c0e:	00c45713          	srli	a4,s0,0xc
+ c12:	8b05                	andi	a4,a4,1
+ c14:	e319                	bnez	a4,c1a <_STACK_SIZE+0x21a>
+ c16:	0785                	addi	a5,a5,1
+ c18:	bf1d                	j	b4e <_STACK_SIZE+0x14e>
+ c1a:	0789                	addi	a5,a5,2
+ c1c:	bf0d                	j	b4e <_STACK_SIZE+0x14e>
+ c1e:	40647713          	andi	a4,s0,1030
+ c22:	d715                	beqz	a4,b4e <_STACK_SIZE+0x14e>
+ c24:	bfcd                	j	c16 <_STACK_SIZE+0x216>
+ c26:	85d6                	mv	a1,s5
+ c28:	02000513          	li	a0,32
+ c2c:	c63a                	sw	a4,12(sp)
+ c2e:	c43e                	sw	a5,8(sp)
+ c30:	2859                	jal	cc6 <fputc>
+ c32:	4732                	lw	a4,12(sp)
+ c34:	47a2                	lw	a5,8(sp)
+ c36:	0705                	addi	a4,a4,1
+ c38:	ff6747e3          	blt	a4,s6,c26 <_STACK_SIZE+0x226>
+ c3c:	4701                	li	a4,0
+ c3e:	00fb4463          	blt	s6,a5,c46 <_STACK_SIZE+0x246>
+ c42:	40fb0733          	sub	a4,s6,a5
+ c46:	993a                	add	s2,s2,a4
+ c48:	97ba                	add	a5,a5,a4
+ c4a:	b70d                	j	b6c <_STACK_SIZE+0x16c>
+ c4c:	873e                	mv	a4,a5
+ c4e:	b7ed                	j	c38 <_STACK_SIZE+0x238>
+ c50:	6785                	lui	a5,0x1
+ c52:	80078793          	addi	a5,a5,-2048 # 800 <__ultoa_invert+0x28>
+ c56:	8c7d                	and	s0,s0,a5
+ c58:	0442                	slli	s0,s0,0x10
+ c5a:	8041                	srli	s0,s0,0x10
+ c5c:	0909                	addi	s2,s2,2
+ c5e:	05800513          	li	a0,88
+ c62:	e019                	bnez	s0,c68 <_STACK_SIZE+0x268>
+ c64:	07800513          	li	a0,120
+ c68:	85d6                	mv	a1,s5
+ c6a:	28b1                	jal	cc6 <fputc>
+ c6c:	bf39                	j	b8a <_STACK_SIZE+0x18a>
+ c6e:	40647793          	andi	a5,s0,1030
+ c72:	df81                	beqz	a5,b8a <_STACK_SIZE+0x18a>
+ c74:	00247793          	andi	a5,s0,2
+ c78:	02000513          	li	a0,32
+ c7c:	c399                	beqz	a5,c82 <_STACK_SIZE+0x282>
+ c7e:	02b00513          	li	a0,43
+ c82:	40047413          	andi	s0,s0,1024
+ c86:	c019                	beqz	s0,c8c <_STACK_SIZE+0x28c>
+ c88:	02d00513          	li	a0,45
+ c8c:	0905                	addi	s2,s2,1
+ c8e:	bfe9                	j	c68 <_STACK_SIZE+0x268>
+ c90:	85d6                	mv	a1,s5
+ c92:	03000513          	li	a0,48
+ c96:	2805                	jal	cc6 <fputc>
+ c98:	147d                	addi	s0,s0,-1
+ c9a:	bdcd                	j	b8c <_STACK_SIZE+0x18c>
+ c9c:	85d6                	mv	a1,s5
+ c9e:	02000513          	li	a0,32
+ ca2:	2015                	jal	cc6 <fputc>
+ ca4:	147d                	addi	s0,s0,-1
+ ca6:	b315                	j	9ca <vfprintf+0x1a6>
+ ca8:	854a                	mv	a0,s2
+ caa:	6105                	addi	sp,sp,32
+ cac:	a89d                	j	d22 <__riscv_restore_12>
+
+00000cae <strnlen>:
+ cae:	95aa                	add	a1,a1,a0
+ cb0:	87aa                	mv	a5,a0
+ cb2:	00b78563          	beq	a5,a1,cbc <strnlen+0xe>
+ cb6:	0007c703          	lbu	a4,0(a5)
+ cba:	e701                	bnez	a4,cc2 <strnlen+0x14>
+ cbc:	40a78533          	sub	a0,a5,a0
+ cc0:	8082                	ret
+ cc2:	0785                	addi	a5,a5,1
+ cc4:	b7fd                	j	cb2 <strnlen+0x4>
+
+00000cc6 <fputc>:
+ cc6:	050002ef          	jal	t0,d16 <__riscv_save_0>
+ cca:	0045c703          	lbu	a4,4(a1)
+ cce:	8b09                	andi	a4,a4,2
+ cd0:	cb01                	beqz	a4,ce0 <fputc+0x1a>
+ cd2:	459c                	lw	a5,8(a1)
+ cd4:	842a                	mv	s0,a0
+ cd6:	0ff57513          	zext.b	a0,a0
+ cda:	9782                	jalr	a5
+ cdc:	00055363          	bgez	a0,ce2 <fputc+0x1c>
+ ce0:	547d                	li	s0,-1
+ ce2:	8522                	mv	a0,s0
+ ce4:	a899                	j	d3a <__riscv_restore_0>
+
+00000ce6 <__riscv_save_12>:
+ ce6:	7139                	addi	sp,sp,-64
+ ce8:	4301                	li	t1,0
+ cea:	c66e                	sw	s11,12(sp)
+ cec:	a019                	j	cf2 <__riscv_save_10+0x4>
+
+00000cee <__riscv_save_10>:
+ cee:	7139                	addi	sp,sp,-64
+ cf0:	5341                	li	t1,-16
+ cf2:	c86a                	sw	s10,16(sp)
+ cf4:	ca66                	sw	s9,20(sp)
+ cf6:	cc62                	sw	s8,24(sp)
+ cf8:	ce5e                	sw	s7,28(sp)
+ cfa:	a019                	j	d00 <__riscv_save_4+0x4>
+
+00000cfc <__riscv_save_4>:
+ cfc:	7139                	addi	sp,sp,-64
+ cfe:	5301                	li	t1,-32
+ d00:	d05a                	sw	s6,32(sp)
+ d02:	d256                	sw	s5,36(sp)
+__riscv_save_7():
+ d04:	d452                	sw	s4,40(sp)
+ d06:	d64e                	sw	s3,44(sp)
+ d08:	d84a                	sw	s2,48(sp)
+ d0a:	da26                	sw	s1,52(sp)
+ d0c:	dc22                	sw	s0,56(sp)
+ d0e:	de06                	sw	ra,60(sp)
+ d10:	40610133          	sub	sp,sp,t1
+ d14:	8282                	jr	t0
+
+00000d16 <__riscv_save_0>:
+__riscv_save_1():
+ d16:	1141                	addi	sp,sp,-16
+ d18:	c04a                	sw	s2,0(sp)
+ d1a:	c226                	sw	s1,4(sp)
+ d1c:	c422                	sw	s0,8(sp)
+ d1e:	c606                	sw	ra,12(sp)
+ d20:	8282                	jr	t0
+
+00000d22 <__riscv_restore_12>:
+__riscv_restore_12():
+ d22:	4db2                	lw	s11,12(sp)
+ d24:	0141                	addi	sp,sp,16
+
+00000d26 <__riscv_restore_10>:
+ d26:	4d02                	lw	s10,0(sp)
+ d28:	4c92                	lw	s9,4(sp)
+ d2a:	4c22                	lw	s8,8(sp)
+ d2c:	4bb2                	lw	s7,12(sp)
+ d2e:	0141                	addi	sp,sp,16
+
+00000d30 <__riscv_restore_4>:
+ d30:	4b02                	lw	s6,0(sp)
+ d32:	4a92                	lw	s5,4(sp)
+ d34:	4a22                	lw	s4,8(sp)
+ d36:	49b2                	lw	s3,12(sp)
+ d38:	0141                	addi	sp,sp,16
+
+00000d3a <__riscv_restore_0>:
+ d3a:	4902                	lw	s2,0(sp)
+ d3c:	4492                	lw	s1,4(sp)
+ d3e:	4422                	lw	s0,8(sp)
+ d40:	40b2                	lw	ra,12(sp)
+ d42:	0141                	addi	sp,sp,16
+ d44:	8082                	ret
+	...

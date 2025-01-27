@@ -1,0 +1,59 @@
+@P:  Worst Slack : 0.954
+@P:  HelloWorld_Top|sys_clk - Estimated Frequency : 52.8 MHz
+@P:  HelloWorld_Top|sys_clk - Requested Frequency : 38.0 MHz
+@P:  HelloWorld_Top|sys_clk - Estimated Period : 18.936
+@P:  HelloWorld_Top|sys_clk - Requested Period : 26.316
+@P:  HelloWorld_Top|sys_clk - Slack : 7.380
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock - Estimated Frequency : 123.6 MHz
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock - Estimated Period : 8.092
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock - Requested Period : 10.000
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock - Slack : 0.954
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock - Estimated Frequency : 164.2 MHz
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock - Estimated Period : 6.090
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock - Requested Period : 10.000
+@P:  cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock - Slack : 1.955
+@P:  System - Estimated Frequency : 178.9 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 5.589
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 4.411
+@P:  Total Area : 2882.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:01m:40s

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="MachXO2" date="2023 05 17 14:11:57" device="LCMXO2-7000HE" gen_platform="Propel" generator="ipgen" library="sim_model" module="Clock_Reset_Generator" name="sysclk_rst_gen1" package="CABGA256" source_format="Verilog" speed="6" vendor="latticesemi.com" version="1.0.0">
+ <Package>
+  <File modified="2023 05 17 14:11:57" name="rtl/sysclk_rst_gen1_bb.v" type="black_box_verilog"/>
+  <File modified="2023 05 17 14:11:57" name="sysclk_rst_gen1.cfg" type="cfg"/>
+  <File modified="2023 05 17 14:11:57" name="misc/sysclk_rst_gen1_tmpl.v" type="template_verilog"/>
+  <File modified="2023 05 17 14:11:57" name="misc/sysclk_rst_gen1_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2023 05 17 14:11:57" name="rtl/sysclk_rst_gen1.v" type="top_level_verilog"/>
+  <File modified="2023 05 17 14:11:57" name="rtl/sysclk_rst_gen1_globals.v" type="core_verilog"/>
+  <File modified="2022 08 12 18:42:50" name="rtl/SysClk_Rst_GenMon.sv" type="core_system_verilog"/>
+  <File modified="2023 05 17 14:11:57" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2023 05 17 14:11:57" name="design.xml" type="IP-XACT_design"/>
+  <File modified="2023 05 17 14:11:57" name="testbench/apis.svh" type="testbench_system_verilog"/>
+ </Package>
+</RadiantModule>

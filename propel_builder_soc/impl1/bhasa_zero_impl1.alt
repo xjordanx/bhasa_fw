@@ -1,0 +1,19 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Jan 25 12:52:53 2025 *
+NOTE DESIGN NAME: HelloWorld_Top *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS txd_o : 74 : out *
+NOTE PINS rstn_i : 38 : in *
+NOTE PINS led_o[5] : 105 : inout *
+NOTE PINS led_o[0] : 97 : inout *
+NOTE PINS led_o[3] : 100 : inout *
+NOTE PINS led_o[2] : 99 : inout *
+NOTE PINS led_o[1] : 98 : inout *
+NOTE PINS led_o[4] : 104 : inout *
+NOTE PINS led_o[7] : 107 : inout *
+NOTE PINS led_o[6] : 106 : inout *
+NOTE PINS rxd_i : 73 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

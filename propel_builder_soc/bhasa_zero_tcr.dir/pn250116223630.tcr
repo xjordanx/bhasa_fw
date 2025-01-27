@@ -1,0 +1,4 @@
+#Start recording tcl command: 1/16/2025 22:29:06
+#Project Location: C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero; Project name: bhasa_zero
+prj_project open "C:/ECAD/FPGA_Designs/lattice_propel_workspace/bhasa_fw/bhasa_zero/bhasa_zero.ldf"
+#Stop recording: 1/16/2025 22:36:30

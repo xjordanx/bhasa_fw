@@ -1,0 +1,317 @@
+# Sat Jan 25 12:45:39 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\ECAD\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: JETBEAST
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 198MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\impl1\bhasa_zero_impl1_scck.rpt 
+See clock summary report "C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\impl1\bhasa_zero_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 208MB peak: 208MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 208MB peak: 209MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 220MB peak: 220MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 220MB peak: 222MB)
+
+NConnInternalConnection caching is on
+@N: FX493 |Applying initial value "010" on instance genblk5\.ahbl_hsize_p_r[2:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "00000000000000" on instance genblk5\.rd_prev_r[13:0].
+@N: FX493 |Applying initial value "0" on instance genblk5\.ahbl_hresp_r.
+@N: FX493 |Applying initial value "1" on instance genblk5\.ahbl_hreadyout_ext_r.
+@N: FX493 |Applying initial value "0" on instance inputArea_target.
+@N: FX493 |Applying initial value "0000" on instance jtag_tap_fsm_state[3:0].
+@W: BN132 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":2491:16:2491:21|Removing sequential instance HelloWorld_inst.uart0_inst.lscc_uart_inst.u_txmitt.nfifo_thrrdy.thr_ready because it is equivalent to instance HelloWorld_inst.uart0_inst.lscc_uart_inst.u_txmitt.genblk4.thr_empty. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 273MB peak: 273MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 273MB peak: 274MB)
+
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":542:11:542:24|Tristate driver fifo_empty_thr (in view: work.uart0_ipgen_lscc_uart_intface_Z1_layer2(verilog)) on net fifo_empty_thr (in view: work.uart0_ipgen_lscc_uart_intface_Z1_layer2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":543:11:543:23|Tristate driver fifo_full_thr (in view: work.uart0_ipgen_lscc_uart_intface_Z1_layer2(verilog)) on net fifo_full_thr (in view: work.uart0_ipgen_lscc_uart_intface_Z1_layer2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1397:11:1397:26|Tristate driver fifo_almost_full (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net fifo_almost_full (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1396:11:1396:20|Tristate driver fifo_empty (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net fifo_empty (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1389:17:1389:24|Tristate driver rbr_fifo_1 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net rbr_fifo_1 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1389:17:1389:24|Tristate driver rbr_fifo_2 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net rbr_fifo_2 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1389:17:1389:24|Tristate driver rbr_fifo_3 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net rbr_fifo_3 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1389:17:1389:24|Tristate driver rbr_fifo_4 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net rbr_fifo_4 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1389:17:1389:24|Tristate driver rbr_fifo_5 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net rbr_fifo_5 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1389:17:1389:24|Tristate driver rbr_fifo_6 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) on net rbr_fifo_6 (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog)) has its enable tied to GND.
+@W: MO129 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1250:12:1250:17|Sequential instance HelloWorld_inst.sysmem0_inst.lscc_sys_mem_inst.bridge_s0.genblk1.bridge_s0.genblk5.ahbl_hsize_p_r[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1250:12:1250:17|Sequential instance HelloWorld_inst.sysmem0_inst.lscc_sys_mem_inst.bridge_s0.genblk1.bridge_s0.genblk5.ahbl_hsize_p_r[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1250:12:1250:17|Sequential instance HelloWorld_inst.sysmem0_inst.lscc_sys_mem_inst.bridge_s0.genblk1.bridge_s0.genblk5.ahbl_hsize_p_r[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1250:12:1250:17|Sequential instance HelloWorld_inst.sysmem0_inst.lscc_sys_mem_inst.bridge_s1.genblk1.bridge_s1.genblk5.ahbl_hsize_p_r[2] is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 273MB peak: 274MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 273MB peak: 275MB)
+
+@N: BN115 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":9583:45:9583:53|Removing instance AHBL_ARB\.u_arbiter (in view: work.sysmem0_ipgen_lscc_sys_mem_Z3_layer2(verilog)) because it does not drive other instances.
+Encoding state machine nfifo_int\.cs_state[3:0] (in view: work.uart0_ipgen_lscc_uart_intface_Z1_layer2(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1070:16:1070:21|There are no possible illegal states for state machine nfifo_int\.cs_state[3:0] (in view: work.uart0_ipgen_lscc_uart_intface_Z1_layer2(verilog)); safe FSM implementation is not required.
+Encoding state machine cs_state[4:0] (in view: work.uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine nfifo_fsm\.tx_state[6:0] (in view: work.uart0_ipgen_lscc_uart_txmitt_8s_0s_7s_1_2_4_8_16_32_64(verilog))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+Encoding state machine genblk1\.bus_sm_cs[3:0] (in view: work.gpio0_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":321:16:321:21|There are no possible illegal states for state machine genblk1\.bus_sm_cs[3:0] (in view: work.gpio0_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s(verilog)); safe FSM implementation is not required.
+Encoding state machine cs_ahbl_sm[8:0] (in view: work.ahbl2apb0_ipgen_lscc_ahbl2apb_Z14_layer2(verilog))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine buff_valid_r[2:0] (in view: work.ahbl2apb0_ipgen_lscc_ahbl2apb_Z14_layer2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+Encoding state machine genblk5\.err_sm_r[2:0] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine genblk5\.bridge_sm_r[8:0] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog))
+original code -> new code
+   00000000000001 -> 000000001
+   00000000000010 -> 000000010
+   00000000000100 -> 000000100
+   00000000100000 -> 000001000
+   00000001000000 -> 000010000
+   00000010000000 -> 000100000
+   00000100000000 -> 001000000
+   00001000000000 -> 010000000
+   00010000000000 -> 100000000
+@N: FX493 |Applying initial value "1" on instance genblk5\.bridge_sm_r[0].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[1].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[2].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[3].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[4].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[5].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[6].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[7].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[8].
+Encoding state machine genblk5\.err_sm_r[2:0] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_0(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine genblk5\.bridge_sm_r[8:0] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_0(verilog))
+original code -> new code
+   00000000000001 -> 000000001
+   00000000000010 -> 000000010
+   00000000000100 -> 000000100
+   00000000100000 -> 000001000
+   00000001000000 -> 000010000
+   00000010000000 -> 000100000
+   00000100000000 -> 001000000
+   00001000000000 -> 010000000
+   00010000000000 -> 100000000
+@N: FX493 |Applying initial value "1" on instance genblk5\.bridge_sm_r[0].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[1].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[2].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[3].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[4].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[5].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[6].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[7].
+@N: FX493 |Applying initial value "0" on instance genblk5\.bridge_sm_r[8].
+Encoding state machine <encrypted> (in view: work.cpu0_ipgen_Riscv_Dbg_IC(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine cs_sm[2:0] (in view: work.ahbl0_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 280MB peak: 280MB)
+
+
+mixed edge conversion for GCC is OFF
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Removing FSM register genblk5\.bridge_sm_r[8] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Removing FSM register genblk5\.bridge_sm_r[6] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Removing FSM register genblk5\.bridge_sm_r[5] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Removing FSM register genblk5\.bridge_sm_r[2] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Removing FSM register genblk5\.bridge_sm_r[1] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1338:12:1338:17|Removing FSM register genblk5\.err_sm_r[0] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Removing FSM register genblk5\.bridge_sm_r[7] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@W: MO197 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1338:12:1338:17|Removing FSM register genblk5\.err_sm_r[1] (in view view:work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) because its output is a constant.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[2] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[3] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[4] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[5] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[6] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[7] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[8] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[9] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[10] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[11] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[12] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1286:12:1286:17|Removing sequential instance genblk5\.rd_prev_r[13] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1300:20:1300:25|Removing sequential instance genblk5\.genblk2\.rd_burst_r[13:0] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Removing sequential instance genblk5\.bridge_sm_r[4] (in view: work.sysmem0_ipgen_lscc_ahblmem_subordinate_Z4_layer2_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: BZ204 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero_top.v":53:26:53:29|GCC unable to propagate clocks through gate OSCJ; all outputs will be treated as enables regardless of whether any inputs are clocks
+@W: BZ240 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero_top.v":52:5:52:11|GCC encountered Inferred Clock constraint on net GCC considers to be data sys_clk; this will likely lead to failure to convert
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 281MB peak: 281MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 282MB peak: 283MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 282MB peak: 283MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist HelloWorld_Top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 282MB peak: 283MB)
+
+Some data will not be shown as it is part of encrypted module
+
+
+Clock Summary
+******************
+
+          Start                                                                                               Requested     Requested     Clock        Clock               Clock
+Level     Clock                                                                                               Frequency     Period        Type         Group               Load 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                                              100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                                                                                                                
+0 -       HelloWorld_Top|sys_clk                                                                              38.0 MHz      26.316        inferred     (multiple)          1825 
+                                                                                                                                                                                
+0 -       cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock               100.0 MHz     10.000        inferred     (multiple)          83   
+                                                                                                                                                                                
+0 -       cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          9    
+================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                                                    Clock     Source             Clock Pin                                                                                                                   Non-clock Pin     Non-clock Pin
+Clock                                                                                               Load      Pin                Seq Example                                                                                                                 Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                                              0         -                  -                                                                                                                           -                 -            
+                                                                                                                                                                                                                                                                                            
+HelloWorld_Top|sys_clk                                                                              1825      OSCJ.OSC(OSCH)     HelloWorld_inst.ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv.cs_sm[0].C     -                 -            
+                                                                                                                                                                                                                                                                                            
+cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock               83        -                  -                                                                                                                           -                 -            
+                                                                                                                                                                                                                                                                                            
+cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock     9         -                  -                                                                                                                           -                 -            
+============================================================================================================================================================================================================================================================================================
+
+@W: MT529 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1070:16:1070:21|Found inferred clock HelloWorld_Top|sys_clk which controls 1825 sequential elements including HelloWorld_inst.uart0_inst.lscc_uart_inst.u_intface.nfifo_int\.cs_state[1]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 92 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1763 clock pin(s) of sequential element(s)
+0 instances converted, 1763 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_3       ENCRYPTED           DCCA                   83         ENCRYPTED      
+@KP:ckid0_4       ENCRYPTED           jtagconn16             9          ENCRYPTED      
+=======================================================================================
+================================================================================ Gated/Generated Clocks =================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance                                                       Explanation                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       OSCJ.OSC            OSCH                   1763                   HelloWorld_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.buff_valid_r[1]     Clock source is invalid for GCC
+=========================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 279MB peak: 283MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 280MB peak: 283MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 282MB peak: 283MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 189MB peak: 283MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:10s cputime
+# Sat Jan 25 12:45:49 2025
+
+###########################################################]

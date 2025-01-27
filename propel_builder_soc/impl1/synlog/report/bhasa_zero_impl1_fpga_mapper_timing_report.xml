@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\impl1\synlog\bhasa_zero_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>HelloWorld_Top|sys_clk</data>
+<data>38.0 MHz</data>
+<data>52.8 MHz</data>
+<data>7.380</data>
+</row>
+<row>
+<data>cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bbICH_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>123.6 MHz</data>
+<data>0.954</data>
+</row>
+<row>
+<data>cpu0_ipgen_vex_jtag_bridge_0s_MachXO2_14s_0s_0b1_0b0_0b0_0x04000|bqAaKcoy7LeAHb1_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>164.2 MHz</data>
+<data>1.955</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>178.9 MHz</data>
+<data>4.411</data>
+</row>
+</report_table>

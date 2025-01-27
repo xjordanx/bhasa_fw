@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "bhasa_zero_impl1.log"
+-o "bhasa_zero_impl1.csv"
+-pr "bhasa_zero_impl1.prf"

@@ -1,0 +1,150 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd":57:7:57:16|Top entity is set to bhasa_zero.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd'.
+@N|Running in 64-bit mode
+@N: CG364 :"C:\ECAD\lscc\diamond\3.14\synpbase\lib\lucent\machxo2.v":494:7:494:9|Synthesizing module GSR in library work.
+@N: CG364 :"C:\ECAD\lscc\diamond\3.14\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero_Top.v":44:7:44:20|Synthesizing module HelloWorld_Top in library work.
+@N: CG794 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero_Top.v":55:11:55:25|Using module bhasa_zero from library work
+@N:"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd":57:7:57:16|Top entity is set to bhasa_zero.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd'.
+@N: CD630 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd":57:7:57:16|Synthesizing work.bhasa_zero.bhasa_zero.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":478:7:478:35|Synthesizing module uart0_ipgen_lscc_uart_intface in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1354:7:1354:34|Synthesizing module uart0_ipgen_lscc_uart_rxcver in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1998:7:1998:34|Synthesizing module uart0_ipgen_lscc_uart_txmitt in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":2572:7:2572:27|Synthesizing module uart0_ipgen_lscc_uart in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":11:7:11:11|Synthesizing module uart0 in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8341:7:8341:32|Synthesizing module sysmem0_ipgen_lscc_sys_mem in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":506:7:506:44|Synthesizing module sysmem0_ipgen_lscc_ahblmem_subordinate in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":3984:7:3984:28|Synthesizing module sysmem0_ipgen_lscc_mem in library work.
+@N: CG364 :"C:\ECAD\lscc\diamond\3.14\synpbase\lib\lucent\pmi_def.v":391:7:391:24|Synthesizing module pmi_ram_dp_true_be in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":396:7:396:40|Synthesizing module sysmem0_ipgen_lscc_ahblmem_arbiter in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":11:66:11:72|Synthesizing module sysmem0 in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":508:7:508:27|Synthesizing module gpio0_ipgen_lscc_gpio in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":745:7:745:32|Synthesizing module gpio0_ipgen_lscc_gpio_lmmi in library work.
+@N: CG364 :"C:\ECAD\lscc\diamond\3.14\synpbase\lib\lucent\machxo2.v":82:7:82:8|Synthesizing module BB in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":121:7:121:31|Synthesizing module gpio0_ipgen_lscc_apb2lmmi in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":11:7:11:11|Synthesizing module gpio0 in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":2961:7:2961:38|Synthesizing module apb0_ipgen_lscc_apb_interconnect in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":1618:7:1618:33|Synthesizing module apb0_ipgen_lscc_apb_decoder in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":2316:7:2316:38|Synthesizing module apb0_ipgen_lscc_apb_decoder_prim in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":2386:7:2386:38|Synthesizing module apb0_ipgen_lscc_apb_decoder_comp in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":2316:7:2316:38|Synthesizing module apb0_ipgen_lscc_apb_decoder_prim in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":2386:7:2386:38|Synthesizing module apb0_ipgen_lscc_apb_decoder_comp in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":2592:7:2592:37|Synthesizing module apb0_ipgen_lscc_apb_multiplexor in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":1003:7:1003:29|Synthesizing module apb0_ipgen_lscc_apb_bus in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\apb0\1.2.0\rtl\apb0.v":11:7:11:10|Synthesizing module apb0 in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":108:7:108:35|Synthesizing module ahbl2apb0_ipgen_lscc_ahbl2apb in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":11:7:11:15|Synthesizing module ahbl2apb0 in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":5726:7:5726:40|Synthesizing module ahbl0_ipgen_lscc_ahbl_interconnect in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":3477:7:3477:35|Synthesizing module ahbl0_ipgen_lscc_ahbl_decoder in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":4185:7:4185:40|Synthesizing module ahbl0_ipgen_lscc_ahbl_decoder_prim in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":4255:7:4255:40|Synthesizing module ahbl0_ipgen_lscc_ahbl_decoder_comp in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":4185:7:4185:40|Synthesizing module ahbl0_ipgen_lscc_ahbl_decoder_prim in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":4255:7:4255:40|Synthesizing module ahbl0_ipgen_lscc_ahbl_decoder_comp in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":5030:7:5030:39|Synthesizing module ahbl0_ipgen_lscc_ahbl_multiplexor in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":4342:7:4342:39|Synthesizing module ahbl0_ipgen_lscc_ahbl_default_slv in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":2065:7:2065:31|Synthesizing module ahbl0_ipgen_lscc_ahbl_bus in library work.
+@N: CG364 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":11:7:11:11|Synthesizing module ahbl0 in library work.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v":4422:4:4422:9|Trying to extract state machine for register cs_sm.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":406:4:406:9|Trying to extract state machine for register buff_valid_r.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":282:4:282:9|Trying to extract state machine for register cs_ahbl_sm.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":122:10:122:15|Input pclk_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":123:10:123:18|Input presetn_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":130:16:130:28|Input ahbl_hburst_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":131:16:131:27|Input ahbl_hsize_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":132:10:132:25|Input ahbl_hmastlock_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\module\ahbl2apb0\1.1.0\rtl\ahbl2apb0.v":133:16:133:27|Input ahbl_hprot_i is unused.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":321:16:321:21|Trying to extract state machine for register genblk1.bus_sm_cs.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":776:35:776:40|Input gpio_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":529:35:529:46|Input lmmi_wdata_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":533:10:533:22|Input lmmi_wr_rdn_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":534:33:534:45|Input lmmi_offset_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\gpio0\1.6.1\rtl\gpio0.v":535:10:535:23|Input lmmi_request_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":404:10:404:14|Input clk_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":405:10:405:14|Input rst_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":409:31:409:39|Input addr_s0_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":417:31:417:39|Input addr_s1_i is unused.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1326:12:1326:17|Trying to extract state machine for register genblk5.bridge_sm_r.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":1338:12:1338:17|Trying to extract state machine for register genblk5.err_sm_r.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":530:10:530:25|Input ahbl_hmastlock_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":531:16:531:27|Input ahbl_hprot_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":542:10:542:20|Input mem_error_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8513:10:8513:19|Input axi_aclk_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8514:10:8514:21|Input axi_resetn_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8554:29:8554:41|Input axi_s0_awid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8555:17:8555:31|Input axi_s0_awaddr_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8556:16:8556:29|Input axi_s0_awlen_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8557:16:8557:30|Input axi_s0_awsize_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8558:16:8558:31|Input axi_s0_awburst_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8559:10:8559:24|Input axi_s0_awlock_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8560:16:8560:31|Input axi_s0_awcache_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8561:16:8561:29|Input axi_s0_awqos_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8562:16:8562:32|Input axi_s0_awregion_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8563:16:8563:30|Input axi_s0_awprot_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8564:10:8564:25|Input axi_s0_awvalid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8566:31:8566:44|Input axi_s0_wdata_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8567:37:8567:50|Input axi_s0_wstrb_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8568:10:8568:23|Input axi_s0_wlast_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8569:10:8569:24|Input axi_s0_wvalid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8574:10:8574:24|Input axi_s0_bready_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8575:29:8575:41|Input axi_s0_arid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8576:17:8576:31|Input axi_s0_araddr_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8577:16:8577:29|Input axi_s0_arlen_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8578:16:8578:30|Input axi_s0_arsize_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8579:16:8579:31|Input axi_s0_arburst_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8580:10:8580:24|Input axi_s0_arlock_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8581:16:8581:31|Input axi_s0_arcache_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8582:16:8582:29|Input axi_s0_arqos_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8583:16:8583:32|Input axi_s0_arregion_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8584:16:8584:30|Input axi_s0_arprot_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8585:10:8585:25|Input axi_s0_arvalid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8592:10:8592:24|Input axi_s0_rready_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8596:29:8596:41|Input axi_s1_awid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8597:17:8597:31|Input axi_s1_awaddr_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8598:16:8598:29|Input axi_s1_awlen_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8599:16:8599:30|Input axi_s1_awsize_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8600:16:8600:31|Input axi_s1_awburst_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8601:10:8601:24|Input axi_s1_awlock_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8602:16:8602:31|Input axi_s1_awcache_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8603:16:8603:29|Input axi_s1_awqos_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8604:16:8604:32|Input axi_s1_awregion_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8605:16:8605:30|Input axi_s1_awprot_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8606:10:8606:25|Input axi_s1_awvalid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8608:31:8608:44|Input axi_s1_wdata_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8609:37:8609:50|Input axi_s1_wstrb_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8610:10:8610:23|Input axi_s1_wlast_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8611:10:8611:24|Input axi_s1_wvalid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8616:10:8616:24|Input axi_s1_bready_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8617:29:8617:41|Input axi_s1_arid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8618:17:8618:31|Input axi_s1_araddr_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8619:16:8619:29|Input axi_s1_arlen_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8620:16:8620:30|Input axi_s1_arsize_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8621:16:8621:31|Input axi_s1_arburst_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8622:10:8622:24|Input axi_s1_arlock_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8623:16:8623:31|Input axi_s1_arcache_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8624:16:8624:29|Input axi_s1_arqos_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8625:16:8625:32|Input axi_s1_arregion_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8626:16:8626:30|Input axi_s1_arprot_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8627:10:8627:25|Input axi_s1_arvalid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8634:10:8634:24|Input axi_s1_rready_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8638:10:8638:19|Input fifo_clk_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8639:10:8639:21|Input fifo_wr_en_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8640:16:8640:29|Input fifo_wr_data_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8641:10:8641:28|Input fifo_interface_en_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8642:10:8642:27|Input fifo_address_rst_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8647:10:8647:23|Input axis_rx_aclk_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8648:10:8648:24|Input axi_rx_tvalid_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8649:31:8649:44|Input axi_rx_tdata_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8650:37:8650:50|Input axi_rx_tstrb_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\sysmem0\2.2.0\rtl\sysmem0.v":8651:10:8651:23|Input axi_rx_tlast_i is unused.
+@N: CL159 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":2613:10:2613:14|Input DCD_N is unused.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":2253:16:2253:21|Trying to extract state machine for register nfifo_fsm.tx_state.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1590:4:1590:9|Trying to extract state machine for register cs_state.
+@N: CL201 :"C:\ECAD\FPGA_Designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v":1070:16:1070:21|Trying to extract state machine for register nfifo_int.cs_state.
+@N|Running in 64-bit mode
+@N: NF117 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd":951:4:951:12|Number of passed parameters/generics from instance cpu0_inst does not match cell cpu0_0s_0s_4294967295_0_4294967295_0_4294901760_10_layer2 
+@N: NF117 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd":774:4:774:12|Number of passed parameters/generics from instance apb0_inst does not match cell apb0_32s_1s_17408_1024_16384_1024 
+@N: NF117 :"c:\ecad\fpga_designs\lattice_propel_workspace\bhasa_fw\bhasa_zero\bhasa_zero\bhasa_zero.vhd":358:4:358:13|Number of passed parameters/generics from instance ahbl0_inst does not match cell ahbl0_32s_1s_1s_0_16384_1s_16384_2048 
+
